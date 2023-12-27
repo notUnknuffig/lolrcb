@@ -76,6 +76,7 @@
             return p_name.slice(1);
         }
         var lastChampion = [];
+        var savedChampion = [];
         var thisChampion = [];
         function addUniqueLegendary(array,maxNumber) {
             while (array.length < 4) {
@@ -167,6 +168,22 @@
             document.getElementById("erandomBuild").innerHTML = "Runes: "+"<img src=" + getItemIcon(lastChampion[3]) +" width=\"30\" height=\"30\">" + lastChampion[3]+ "<br>1.Mythic: "+"<img src="+getItemIcon(lastChampion[4]) +" width=\"20\" height=\"20\">" + lastChampion[4]+ "<br>2.Boots: "+"<img src="+getItemIcon(lastChampion[5]) +" width=\"20\" height=\"20\">" + lastChampion[5]+"<br>3.Item: "+"<img src="+getItemIcon(lastChampion[6]) +" width=\"20\" height=\"20\">" + lastChampion[6]+"<br>4.Item: "+"<img src="+getItemIcon(lastChampion[7]) +" width=\"20\" height=\"20\">" + lastChampion[7]+"<br>5.Item: "+"<img src="+getItemIcon(lastChampion[8]) +" width=\"20\" height=\"20\">" + lastChampion[8]+"<br>6.Item: "+"<img src="+getItemIcon(lastChampion[9]) +" width=\"20\" height=\"20\">" + lastChampion[9];
             thisChampion = lastChampion;
         }
+        function save() 
+        {
+            savedChampion = thisChampion;
+        }
+        function load() 
+        {
+            lastChampion = thisChampion;
+            if (savedChampion != [])  
+                var image = document.getElementById("image");
+                image.src = savedChampion[1];
+                document.getElementById("erandomChampion").innerHTML = "Champion: " +savedChampion[0];
+                document.getElementById("erandomLane").innerHTML = "Lane: " + "<img src=" + 'https://static.bigbrain.gg/assets/lol/roles/' + savedChampion[10] + '.svg' +" width=\"25\" height=\"25\">" + " " + savedChampion[2];
+                document.getElementById("erandomBuild").innerHTML = "Runes: "+"<img src=" + getItemIcon(savedChampion[3]) +" width=\"30\" height=\"30\">" + savedChampion[3]+ "<br>1.Mythic: "+"<img src="+getItemIcon(savedChampion[4]) +" width=\"20\" height=\"20\">" + savedChampion[4]+ "<br>2.Boots: "+"<img src="+getItemIcon(savedChampion[5]) +" width=\"20\" height=\"20\">" + savedChampion[5]+"<br>3.Item: "+"<img src="+getItemIcon(savedChampion[6]) +" width=\"20\" height=\"20\">" + savedChampion[6]+"<br>4.Item: "+"<img src="+getItemIcon(savedChampion[7]) +" width=\"20\" height=\"20\">" + savedChampion[7]+"<br>5.Item: "+"<img src="+getItemIcon(savedChampion[8]) +" width=\"20\" height=\"20\">" + savedChampion[8]+"<br>6.Item: "+"<img src="+getItemIcon(savedChampion[9]) +" width=\"20\" height=\"20\">" + savedChampion[9];
+                thisChampion = savedChampion;
+                savedChampion = [];
+        }
     </script>
     <style>
         body {
@@ -198,38 +215,50 @@
             background-repeat: repeat;
             z-index: -1;
         }
-        h1 {
+        h2 {
             text-align: center;
-            font-size: 42px;
+            font-size: 45px;
         }
         #erandomChampion {
-            font-size: 36px;
-            text-align: center;
-        }
-        #erandomLane {
             font-size: 30px;
             text-align: center;
         }
-        #erandomBuild {
+        #erandomLane {
             font-size: 25px;
+            text-align: center;
+        }
+        #erandomBuild {
+            font-size: 20px;
             
         }
-        #randomizeButton {
-            font-size: 20px;
+        #_button {
+            font-size: 15px;
             text-align: center;
-            margin-top: 20px;
             padding: 10px 10px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            margin-top: 20px;
+        }
+        .grid-item:nth-child(3) {
+            grid-column: 1 / span 2;
         }
     </style>
 </head>
 <body onload="generateRandomBuild(true)">
-    <h1>Random Champion Generator</h1>
+    <h2>Random Champion Build</h2>
     <img id="image" src="https://static.bigbrain.gg/assets/lol/riot_static/13.14.1/img/champion/DrMundo.webp" alt="Image" width="100" height="100">
     <div id="erandomChampion"></div>
     <div id="erandomLane"></div>
     <div id="erandomBuild"></div>
-    <button id="randomizeButton" onclick="rerollChampion()">Offmeta Random</button>
-    <button id="randomizeButton" onclick="rerollRandomChampion()">Completely Random</button>
-    <button id="randomizeButton" onclick="back()">Back</button>
+    <div class="grid-container">
+        <button class="grid-item" id="_button" onclick="rerollChampion()">Offmeta Random</button>
+        <button class="grid-item" id="_button" onclick="rerollRandomChampion()">Completely Random</button>
+        <button class="grid-item" id="_button" onclick="back()">Back</button>
+        <button class="grid-item" id="_button" onclick="save()">Save</button>
+        <button class="grid-item" id="_button" onclick="load()">Load</button>
+    </div>
 </body>
 </html>
