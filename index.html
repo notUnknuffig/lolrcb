@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Random Champion Generator</title>
+    <link rel="stylesheet" href="style.css">
     <script>
         function clarefiyName(name)
         {
@@ -184,67 +185,6 @@
                 thisChampion = savedChampion;
         }
     </script>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            color: white;
-            padding: 50;
-            font-family: sans-serif;
-            background-image: url(https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/LOL_2560x1440-98749e0d718e82d27a084941939bc9d3);
-            background-size: cover;
-            background-repeat: no-repeat;
-            position: relative;
-        }
-        body::before { 
-            display: flex;
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            opacity: 1;
-            background-color: rgba(0,0,0,0.7);
-            background-size: screen;
-            background-repeat: repeat;
-            z-index: -1;
-        }
-        h2 {
-            text-align: center;
-            font-size: 45px;
-        }
-        #erandomChampion {
-            font-size: 30px;
-            text-align: center;
-        }
-        #erandomLane {
-            font-size: 25px;
-            text-align: center;
-        }
-        #erandomBuild {
-            font-size: 20px;
-            
-        }
-        #_button {
-            font-size: 15px;
-            text-align: center;
-            padding: 10px 10px;
-        }
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            margin-top: 20px;
-        }
-        .grid-item:nth-child(3) {
-            grid-column: 1 / span 2;
-        }
-    </style>
 </head>
 <body onload="generateRandomBuild(true)">
     <h2>Random Champion Build</h2>

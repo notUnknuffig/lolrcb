@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    padding: 50;
+    font-family: sans-serif;
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+body::before { 
+    display: flex;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+    background-size: screen;
+    background-repeat: repeat;
+    z-index: -1;
+}
+h2 {
+    text-align: center;
+    font-size: 45px;
+}
+#erandomChampion {
+    font-size: 30px;
+    text-align: center;
+}
+#erandomLane {
+    font-size: 25px;
+    text-align: center;
+}
+#erandomBuild {
+    font-size: 20px;
+    
+}
+#_button {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 20px;
+}
+.grid-item:nth-child(3) {
+    grid-column: 1 / span 2;
+}
