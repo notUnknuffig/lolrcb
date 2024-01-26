@@ -1,4 +1,1090 @@
-data = [
-        {"name":"Aatrox", "image":"championImages/Aatrox.jpg", "builds":[["Plated Steelcaps", "Sundered Sky", "Spear of Shojin", "Steraks Gage", "Deaths Dance", "Guardian Angel"]]},
-        {"name":"Ahri", "image":"championImages/Ahri.jpg", "builds":[["Plated Steelcaps", "Sundered Sky", "Spear of Shojin", "Steraks Gage", "Deaths Dance", "Guardian Angel"]]}
-    ]
+data = {
+    "champion":[
+        {
+            "name": "Aatrox",
+            "image": "championImages/Aatrox.jpg",
+            "build": ["Sundered Sky", "Plated Steelcaps", "Spear of Shojin", "Steraks Gage", "Deaths Dance", "Guardian Angel", "Conquerer"]
+        },
+        {
+            "name": "Ahri",
+            "image": "championImages/Ahri.jpg"
+        },
+        {
+            "name": "Akali",
+            "image": "championImages/Akali.jpg"
+        },
+        {
+            "name": "Akshan",
+            "image": "championImages/Akshan.jpg"
+        },
+        {
+            "name": "Alistar",
+            "image": "championImages/Alistar.jpg"
+        },
+        {
+            "name": "Amumu",
+            "image": "championImages/Amumu.jpg"
+        },
+        {
+            "name": "Anivia",
+            "image": "championImages/Anivia.jpg"
+        },
+        {
+            "name": "Annie",
+            "image": "championImages/Annie.jpg"
+        },
+        {
+            "name": "Aphelios",
+            "image": "championImages/Aphelios.jpg"
+        },
+        {
+            "name": "Ashe",
+            "image": "championImages/Ashe.jpg"
+        },
+        {
+            "name": "Aurelion Sol",
+            "image": "championImages/AurelionSol.jpg"
+        },
+        {
+            "name": "Azir",
+            "image": "championImages/Azir.jpg"
+        },
+        {
+            "name": "Bard",
+            "image": "championImages/Bard.jpg"
+        },
+        {
+            "name": "Bel'Veth",
+            "image": "championImages/Belveth.jpg"
+        },
+        {
+            "name": "Blitzcrank",
+            "image": "championImages/Blitzcrank.jpg"
+        },
+        {
+            "name": "Brand",
+            "image": "championImages/Brand.jpg"
+        },
+        {
+            "name": "Braum",
+            "image": "championImages/Braum.jpg"
+        },
+        {
+            "name": "Briar",
+            "image": "championImages/Briar.jpg"
+        },
+        {
+            "name": "Caitlyn",
+            "image": "championImages/Caitlyn.jpg"
+        },
+        {
+            "name": "Camille",
+            "image": "championImages/Camille.jpg"
+        },
+        {
+            "name": "Cassiopeia",
+            "image": "championImages/Cassiopeia.jpg"
+        },
+        {
+            "name": "Cho'Gath",
+            "image": "championImages/Chogath.jpg"
+        },
+        {
+            "name": "Corki",
+            "image": "championImages/Corki.jpg"
+        },
+        {
+            "name": "Darius",
+            "image": "championImages/Darius.jpg"
+        },
+        {
+            "name": "Diana",
+            "image": "championImages/Diana.jpg"
+        },
+        {
+            "name": "Draven",
+            "image": "championImages/Draven.jpg"
+        },
+        {
+            "name": "Dr. Mundo",
+            "image": "championImages/DrMundo.jpg"
+        },
+        {
+            "name": "Ekko",
+            "image": "championImages/Ekko.jpg"
+        },
+        {
+            "name": "Elise",
+            "image": "championImages/Elise.jpg"
+        },
+        {
+            "name": "Evelynn",
+            "image": "championImages/Evelynn.jpg"
+        },
+        {
+            "name": "Ezreal",
+            "image": "championImages/Ezreal.jpg"
+        },
+        {
+            "name": "Fiddlesticks",
+            "image": "championImages/FiddleSticks.jpg"
+        },
+        {
+            "name": "Fiora",
+            "image": "championImages/Fiora.jpg"
+        },
+        {
+            "name": "Fizz",
+            "image": "championImages/Fizz.jpg"
+        },
+        {
+            "name": "Galio",
+            "image": "championImages/Galio.jpg"
+        },
+        {
+            "name": "Gangplank",
+            "image": "championImages/Gangplank.jpg"
+        },
+        {
+            "name": "Garen",
+            "image": "championImages/Garen.jpg"
+        },
+        {
+            "name": "Gnar",
+            "image": "championImages/Gnar.jpg"
+        },
+        {
+            "name": "Gragas",
+            "image": "championImages/Gragas.jpg"
+        },
+        {
+            "name": "Graves",
+            "image": "championImages/Graves.jpg"
+        },
+        {
+            "name": "Gwen",
+            "image": "championImages/Gwen.jpg"
+        },
+        {
+            "name": "Hecarim",
+            "image": "championImages/Hecarim.jpg"
+        },
+        {
+            "name": "Heimerdinger",
+            "image": "championImages/Heimerdinger.jpg"
+        },
+        {
+            "name": "Hwei",
+            "image": "championImages/Hwei.jpg"
+        },
+        {
+            "name": "Illaoi",
+            "image": "championImages/Illaoi.jpg"
+        },
+        {
+            "name": "Irelia",
+            "image": "championImages/Irelia.jpg"
+        },
+        {
+            "name": "Ivern",
+            "image": "championImages/Ivern.jpg"
+        },
+        {
+            "name": "Janna",
+            "image": "championImages/Janna.jpg"
+        },
+        {
+            "name": "Jarvan IV",
+            "image": "championImages/JarvanIV.jpg"
+        },
+        {
+            "name": "Jax",
+            "image": "championImages/Jax.jpg"
+        },
+        {
+            "name": "Jayce",
+            "image": "championImages/Jayce.jpg"
+        },
+        {
+            "name": "Jhin",
+            "image": "championImages/Jhin.jpg"
+        },
+        {
+            "name": "Jinx",
+            "image": "championImages/Jinx.jpg"
+        },
+        {
+            "name": "Kaisa",
+            "image": "championImages/Kaisa.jpg"
+        },
+        {
+            "name": "Kalista",
+            "image": "championImages/Kalista.jpg"
+        },
+        {
+            "name": "Karma",
+            "image": "championImages/Karma.jpg"
+        },
+        {
+            "name": "Karthus",
+            "image": "championImages/Karthus.jpg"
+        },
+        {
+            "name": "Kassadin",
+            "image": "championImages/Kassadin.jpg"
+        },
+        {
+            "name": "Katarina",
+            "image": "championImages/Katarina.jpg"
+        },
+        {
+            "name": "Kayle",
+            "image": "championImages/Kayle.jpg"
+        },
+        {
+            "name": "Kayn",
+            "image": "championImages/Kayn.jpg"
+        },
+        {
+            "name": "Kennen",
+            "image": "championImages/Kennen.jpg"
+        },
+        {
+            "name": "Kha'Zix",
+            "image": "championImages/Khazix.jpg"
+        },
+        {
+            "name": "Kindred",
+            "image": "championImages/Kindred.jpg"
+        },
+        {
+            "name": "Kled",
+            "image": "championImages/Kled.jpg"
+        },
+        {
+            "name": "Kog'Maw",
+            "image": "championImages/KogMaw.jpg"
+        },
+        {
+            "name": "K'Sante",
+            "image": "championImages/KSante.jpg"
+        },
+        {
+            "name": "Leblanc",
+            "image": "championImages/Leblanc.jpg"
+        },
+        {
+            "name": "Lee Sin",
+            "image": "championImages/LeeSin.jpg"
+        },
+        {
+            "name": "Leona",
+            "image": "championImages/Leona.jpg"
+        },
+        {
+            "name": "Lillia",
+            "image": "championImages/Lillia.jpg"
+        },
+        {
+            "name": "Lissandra",
+            "image": "championImages/Lissandra.jpg"
+        },
+        {
+            "name": "Lucian",
+            "image": "championImages/Lucian.jpg"
+        },
+        {
+            "name": "Lulu",
+            "image": "championImages/Lulu.jpg"
+        },
+        {
+            "name": "Lux",
+            "image": "championImages/Lux.jpg"
+        },
+        {
+            "name": "Malphite",
+            "image": "championImages/Malphite.jpg"
+        },
+        {
+            "name": "Malzahar",
+            "image": "championImages/Malzahar.jpg"
+        },
+        {
+            "name": "Maokai",
+            "image": "championImages/Maokai.jpg"
+        },
+        {
+            "name": "Master Yi",
+            "image": "championImages/MasterYi.jpg"
+        },
+        {
+            "name": "Milio",
+            "image": "championImages/Milio.jpg"
+        },
+        {
+            "name": "Miss Fortune",
+            "image": "championImages/MissFortune.jpg"
+        },
+        {
+            "name": "Wukong",
+            "image": "championImages/MonkeyKing.jpg"
+        },
+        {
+            "name": "Mordekaiser",
+            "image": "championImages/Mordekaiser.jpg"
+        },
+        {
+            "name": "Morgana",
+            "image": "championImages/Morgana.jpg"
+        },
+        {
+            "name": "Naafiri",
+            "image": "championImages/Naafiri.jpg"
+        },
+        {
+            "name": "Nami",
+            "image": "championImages/Nami.jpg"
+        },
+        {
+            "name": "Nasus",
+            "image": "championImages/Nasus.jpg"
+        },
+        {
+            "name": "Nautilus",
+            "image": "championImages/Nautilus.jpg"
+        },
+        {
+            "name": "Neeko",
+            "image": "championImages/Neeko.jpg"
+        },
+        {
+            "name": "Nidalee",
+            "image": "championImages/Nidalee.jpg"
+        },
+        {
+            "name": "Nilah",
+            "image": "championImages/Nilah.jpg"
+        },
+        {
+            "name": "Nocturne",
+            "image": "championImages/Nocturne.jpg"
+        },
+        {
+            "name": "Nunu",
+            "image": "championImages/Nunu.jpg"
+        },
+        {
+            "name": "Olaf",
+            "image": "championImages/Olaf.jpg"
+        },
+        {
+            "name": "Orianna",
+            "image": "championImages/Orianna.jpg"
+        },
+        {
+            "name": "Ornn",
+            "image": "championImages/Ornn.jpg"
+        },
+        {
+            "name": "Pantheon",
+            "image": "championImages/Pantheon.jpg"
+        },
+        {
+            "name": "Poppy",
+            "image": "championImages/Poppy.jpg"
+        },
+        {
+            "name": "Pyke",
+            "image": "championImages/Pyke.jpg"
+        },
+        {
+            "name": "Qiyana",
+            "image": "championImages/Qiyana.jpg"
+        },
+        {
+            "name": "Quinn",
+            "image": "championImages/Quinn.jpg"
+        },
+        {
+            "name": "Rakan",
+            "image": "championImages/Rakan.jpg"
+        },
+        {
+            "name": "Rammus",
+            "image": "championImages/Rammus.jpg"
+        },
+        {
+            "name": "Rek'Sai",
+            "image": "championImages/RekSai.jpg"
+        },
+        {
+            "name": "Rell",
+            "image": "championImages/Rell.jpg"
+        },
+        {
+            "name": "Renata Glasc",
+            "image": "championImages/Renata.jpg"
+        },
+        {
+            "name": "Renekton",
+            "image": "championImages/Renekton.jpg"
+        },
+        {
+            "name": "Rengar",
+            "image": "championImages/Rengar.jpg"
+        },
+        {
+            "name": "Riven",
+            "image": "championImages/Riven.jpg"
+        },
+        {
+            "name": "Rumble",
+            "image": "championImages/Rumble.jpg"
+        },
+        {
+            "name": "Ryze",
+            "image": "championImages/Ryze.jpg"
+        },
+        {
+            "name": "Samira",
+            "image": "championImages/Samira.jpg"
+        },
+        {
+            "name": "Sejuani",
+            "image": "championImages/Sejuani.jpg"
+        },
+        {
+            "name": "Senna",
+            "image": "championImages/Senna.jpg"
+        },
+        {
+            "name": "Seraphine",
+            "image": "championImages/Seraphine.jpg"
+        },
+        {
+            "name": "Sett",
+            "image": "championImages/Sett.jpg"
+        },
+        {
+            "name": "Shaco",
+            "image": "championImages/Shaco.jpg"
+        },
+        {
+            "name": "Shen",
+            "image": "championImages/Shen.jpg"
+        },
+        {
+            "name": "Shyvana",
+            "image": "championImages/Shyvana.jpg"
+        },
+        {
+            "name": "Singed",
+            "image": "championImages/Singed.jpg"
+        },
+        {
+            "name": "Sion",
+            "image": "championImages/Sion.jpg"
+        },
+        {
+            "name": "Sivir",
+            "image": "championImages/Sivir.jpg"
+        },
+        {
+            "name": "Skarner",
+            "image": "championImages/Skarner.jpg"
+        },
+        {
+            "name": "Smolder",
+            "image": "championImages/Smolder.jpg"
+        },
+        {
+            "name": "Sona",
+            "image": "championImages/Sona.jpg"
+        },
+        {
+            "name": "Soraka",
+            "image": "championImages/Soraka.jpg"
+        },
+        {
+            "name": "Swain",
+            "image": "championImages/Swain.jpg"
+        },
+        {
+            "name": "Sylas",
+            "image": "championImages/Sylas.jpg"
+        },
+        {
+            "name": "Syndra",
+            "image": "championImages/Syndra.jpg"
+        },
+        {
+            "name": "Tahm Kench",
+            "image": "championImages/TahmKench.jpg"
+        },
+        {
+            "name": "Taliyah",
+            "image": "championImages/Taliyah.jpg"
+        },
+        {
+            "name": "Talon",
+            "image": "championImages/Talon.jpg"
+        },
+        {
+            "name": "Taric",
+            "image": "championImages/Taric.jpg"
+        },
+        {
+            "name": "Teemo",
+            "image": "championImages/Teemo.jpg"
+        },
+        {
+            "name": "Thresh",
+            "image": "championImages/Thresh.jpg"
+        },
+        {
+            "name": "Tristana",
+            "image": "championImages/Tristana.jpg"
+        },
+        {
+            "name": "Trundle",
+            "image": "championImages/Trundle.jpg"
+        },
+        {
+            "name": "Tryndamere",
+            "image": "championImages/Tryndamere.jpg"
+        },
+        {
+            "name": "Twisted Fate",
+            "image": "championImages/TwistedFate.jpg"
+        },
+        {
+            "name": "Twitch",
+            "image": "championImages/Twitch.jpg"
+        },
+        {
+            "name": "Udyr",
+            "image": "championImages/Udyr.jpg"
+        },
+        {
+            "name": "Urgot",
+            "image": "championImages/Urgot.jpg"
+        },
+        {
+            "name": "Varus",
+            "image": "championImages/Varus.jpg"
+        },
+        {
+            "name": "Vayne",
+            "image": "championImages/Vayne.jpg"
+        },
+        {
+            "name": "Veigar",
+            "image": "championImages/Veigar.jpg"
+        },
+        {
+            "name": "Vel'Koz",
+            "image": "championImages/Velkoz.jpg"
+        },
+        {
+            "name": "Vex",
+            "image": "championImages/Vex.jpg"
+        },
+        {
+            "name": "Vi",
+            "image": "championImages/Vi.jpg"
+        },
+        {
+            "name": "Viego",
+            "image": "championImages/Viego.jpg"
+        },
+        {
+            "name": "Viktor",
+            "image": "championImages/Viktor.jpg"
+        },
+        {
+            "name": "Vladimir",
+            "image": "championImages/Vladimir.jpg"
+        },
+        {
+            "name": "Volibear",
+            "image": "championImages/Volibear.jpg"
+        },
+        {
+            "name": "Warwick",
+            "image": "championImages/Warwick.jpg"
+        },
+        {
+            "name": "Xayah",
+            "image": "championImages/Xayah.jpg"
+        },
+        {
+            "name": "Xerath",
+            "image": "championImages/Xerath.jpg"
+        },
+        {
+            "name": "Xin Zhao",
+            "image": "championImages/XinZhao.jpg"
+        },
+        {
+            "name": "Yasuo",
+            "image": "championImages/Yasuo.jpg"
+        },
+        {
+            "name": "Yone",
+            "image": "championImages/Yone.jpg"
+        },
+        {
+            "name": "Yorick",
+            "image": "championImages/Yorick.jpg"
+        },
+        {
+            "name": "Yuumi",
+            "image": "championImages/Yuumi.jpg"
+        },
+        {
+            "name": "Zac",
+            "image": "championImages/Zac.jpg"
+        },
+        {
+            "name": "Zed",
+            "image": "championImages/Zed.jpg"
+        },
+        {
+            "name": "Zeri",
+            "image": "championImages/Zeri.jpg"
+        },
+        {
+            "name": "Ziggs",
+            "image": "championImages/Ziggs.jpg"
+        },
+        {
+            "name": "Zilean",
+            "image": "championImages/Zilean.jpg"
+        },
+        {
+            "name": "Zoe",
+            "image": "championImages/Zoe.jpg"
+        },
+        {
+            "name": "Zyra",
+            "image": "championImages/Zyra.jpg"
+        }
+    ],
+    "item":{
+        "Abyssal Mask": {
+            "name": "Abyssal Mask",
+            "image": "itemImages/AbyssalMask.png"
+        },
+        "Anathemas Chains": {
+            "name": "Anathema's Chains",
+            "image": "itemImages/AnathemasChains.png"
+        },
+        "Archangels Staff": {
+            "name": "Archangels Staff",
+            "image": "itemImages/ArchangelsStaff.png"
+        },
+        "Ardent Censer": {
+            "name": "Ardent Censer",
+            "image": "itemImages/ArdentCenser.png"
+        },
+        "Axiom Arc": {
+            "name": "Axiom Arc",
+            "image": "itemImages/AxiomArc.png"
+        },
+        "Banshees Veil": {
+            "name": "Banshee's Veil",
+            "image": "itemImages/BansheesVeil.png"
+        },
+        "Berserkers Greaves": {
+            "name": "Berserker's Greaves",
+            "image": "itemImages/BerserkersGreaves.png"
+        },
+        "Black Cleaver": {
+            "name": "Black Cleaver",
+            "image": "itemImages/BlackCleaver.png"
+        },
+        "Blade of The Ruined King": {
+            "name": "Blade of The Ruined King",
+            "image": "itemImages/BladeofTheRuinedKing.png"
+        },
+        "Bloodthirster": {
+            "name": "Bloodthirster",
+            "image": "itemImages/Bloodthirster.png"
+        },
+        "Boots of Swiftness": {
+            "name": "Boots of Swiftness",
+            "image": "itemImages/BootsofSwiftness.png"
+        },
+        "Chempunk Chainsword": {
+            "name": "Chempunk Chainsword",
+            "image": "itemImages/ChempunkChainsword.png"
+        },
+        "Cosmic Drive": {
+            "name": "Cosmic Drive",
+            "image": "itemImages/CosmicDrive.png"
+        },
+        "Cryptbloom": {
+            "name": "Cryptbloom",
+            "image": "itemImages/Cryptbloom.png"
+        },
+        "Dawncore": {
+            "name": "Dawncore",
+            "image": "itemImages/Dawncore.png"
+        },
+        "Dead Mans Plate": {
+            "name": "Dead Man's Plate",
+            "image": "itemImages/DeadMansPlate.png"
+        },
+        "Deaths Dance": {
+            "name": "Death's Dance",
+            "image": "itemImages/DeathsDance.png"
+        },
+        "Echoes of Helia": {
+            "name": "Echoes of Helia",
+            "image": "itemImages/EchoesofHelia.png"
+        },
+        "Eclipse": {
+            "name": "Eclipse",
+            "image": "itemImages/Eclipse.png"
+        },
+        "Edge of Night": {
+            "name": "Edge of Night",
+            "image": "itemImages/EdgeofNight.png"
+        },
+        "Essence Reaver": {
+            "name": "Essence Reaver",
+            "image": "itemImages/EssenceReaver.png"
+        },
+        "Experimental Hexplate": {
+            "name": "Experimental Hexplate",
+            "image": "itemImages/ExperimentalHexplate.png"
+        },
+        "Force of Nature": {
+            "name": "Force of Nature",
+            "image": "itemImages/ForceofNature.png"
+        },
+        "Frozen Heart": {
+            "name": "Frozen Heart",
+            "image": "itemImages/FrozenHeart.png"
+        },
+        "Guardian Angel": {
+            "name": "Guardian Angel",
+            "image": "itemImages/GuardianAngel.png"
+        },
+        "Guinsoo's Rageblade": {
+            "name": "Guinsoos Rageblade",
+            "image": "itemImages/GuinsoosRageblade.png"
+        },
+        "Heartsteel": {
+            "name": "Heartsteel",
+            "image": "itemImages/Heartsteel.png"
+        },
+        "Hextech Rocketbelt": {
+            "name": "Hextech Rocketbelt",
+            "image": "itemImages/HextechRocketbelt.png"
+        },
+        "Hollow Radiance": {
+            "name": "Hollow Radiance",
+            "image": "itemImages/HollowRadiance.png"
+        },
+        "Horizon Focus": {
+            "name": "Horizon Focus",
+            "image": "itemImages/HorizonFocus.png"
+        },
+        "Hubris": {
+            "name": "Hubris",
+            "image": "itemImages/Hubris.png"
+        },
+        "Hullbreaker": {
+            "name": "Hullbreaker",
+            "image": "itemImages/Hullbreaker.png"
+        },
+        "Iceborn Gauntlet": {
+            "name": "Iceborn Gauntlet",
+            "image": "itemImages/IcebornGauntlet.png"
+        },
+        "Immortal Shieldbow": {
+            "name": "Immortal Shieldbow",
+            "image": "itemImages/ImmortalShieldbow.png"
+        },
+        "Imperial Mandate": {
+            "name": "Imperial Mandate",
+            "image": "itemImages/ImperialMandate.png"
+        },
+        "Infinity Edge": {
+            "name": "Infinity Edge",
+            "image": "itemImages/InfinityEdge.png"
+        },
+        "Ionian Boots of Lucidity": {
+            "name": "Ionian Boots of Lucidity",
+            "image": "itemImages/IonianBootsofLucidity.png"
+        },
+        "JakSho The Protean": {
+            "name": "JakSho, The Protean",
+            "image": "itemImages/JakSho,TheProtean.png"
+        },
+        "Kaenic Rookern": {
+            "name": "Kaenic Rookern",
+            "image": "itemImages/KaenicRookern.png"
+        },
+        "Knights Vow": {
+            "name": "Knight's Vow",
+            "image": "itemImages/KnightsVow.png"
+        },
+        "Kraken Slayer": {
+            "name": "Kraken Slayer",
+            "image": "itemImages/KrakenSlayer.png"
+        },
+        "Liandry's Torment": {
+            "name": "Liandrys Torment",
+            "image": "itemImages/LiandrysTorment.png"
+        },
+        "Lich Bane": {
+            "name": "Lich Bane",
+            "image": "itemImages/LichBane.png"
+        },
+        "Locket of the Iron Solari": {
+            "name": "Locket of the Iron Solari",
+            "image": "itemImages/LocketoftheIronSolari.png"
+        },
+        "Lord Dominiks Regards": {
+            "name": "Lord Dominiks Regards",
+            "image": "itemImages/LordDominiksRegards.png"
+        },
+        "Luden's Companion": {
+            "name": "Ludens Companion",
+            "image": "itemImages/LudensCompanion.png"
+        },
+        "Malignance": {
+            "name": "Malignance",
+            "image": "itemImages/Malignance.png"
+        },
+        "Manamune": {
+            "name": "Manamune",
+            "image": "itemImages/Manamune.png"
+        },
+        "Maw of Malmortius": {
+            "name": "Maw of Malmortius",
+            "image": "itemImages/MawofMalmortius.png"
+        },
+        "Mejais Soulstealer": {
+            "name": "Mejai's Soulstealer",
+            "image": "itemImages/MejaisSoulstealer.png"
+        },
+        "Mercurial Scimitar": {
+            "name": "Mercurial Scimitar",
+            "image": "itemImages/MercurialScimitar.png"
+        },
+        "Mikaels Blessing": {
+            "name": "Mikael's Blessing",
+            "image": "itemImages/MikaelsBlessing.png"
+        },
+        "Mobility Boots": {
+            "name": "Mobility Boots",
+            "image": "itemImages/MobilityBoots.png"
+        },
+        "Moonstone Renewer": {
+            "name": "Moonstone Renewer",
+            "image": "itemImages/MoonstoneRenewer.png"
+        },
+        "Morellonomicon": {
+            "name": "Morellonomicon",
+            "image": "itemImages/Morellonomicon.png"
+        },
+        "Mortal Reminder": {
+            "name": "Mortal Reminder",
+            "image": "itemImages/MortalReminder.png"
+        },
+        "Nashors Tooth": {
+            "name": "Nashor's Tooth",
+            "image": "itemImages/NashorsTooth.png"
+        },
+        "Navori Quickblades": {
+            "name": "Navori Quickblades",
+            "image": "itemImages/NavoriQuickblades.png"
+        },
+        "Night Harvester": {
+            "name": "Night Harvester",
+            "image": "itemImages/NightHarvester.png"
+        },
+        "Opportunity": {
+            "name": "Opportunity",
+            "image": "itemImages/Opportunity.png"
+        },
+        "Phantom Dancer": {
+            "name": "Phantom Dancer",
+            "image": "itemImages/PhantomDancer.png"
+        },
+        "Plated Steelcaps": {
+            "name": "Plated Steelcaps",
+            "image": "itemImages/PlatedSteelcaps.png"
+        },
+        "Profane Hydra": {
+            "name": "Profane Hydra",
+            "image": "itemImages/ProfaneHydra.png"
+        },
+        "Rabadons Deathcap": {
+            "name": "Rabadon's Deathcap",
+            "image": "itemImages/RabadonsDeathcap.png"
+        },
+        "Radiant Virtue": {
+            "name": "Radiant Virtue",
+            "image": "itemImages/RadiantVirtue.png"
+        },
+        "Randuins Omen": {
+            "name": "Randuin's Omen",
+            "image": "itemImages/RanduinsOmen.png"
+        },
+        "Rapid Firecannon": {
+            "name": "Rapid Firecannon",
+            "image": "itemImages/RapidFirecannon.png"
+        },
+        "Ravenous Hydra": {
+            "name": "Ravenous Hydra",
+            "image": "itemImages/RavenousHydra.png"
+        },
+        "Redemption": {
+            "name": "Redemption",
+            "image": "itemImages/Redemption.png"
+        },
+        "Riftmaker": {
+            "name": "Riftmaker",
+            "image": "itemImages/Riftmaker.png"
+        },
+        "Rod of Ages": {
+            "name": "Rod of Ages",
+            "image": "itemImages/RodofAges.png"
+        },
+        "Runaans Hurricane": {
+            "name": "Runaan's Hurricane",
+            "image": "itemImages/RunaansHurricane.png"
+        },
+        "Rylais Crystal Scepter": {
+            "name": "Rylai's Crystal Scepter",
+            "image": "itemImages/RylaisCrystalScepter.png"
+        },
+        "Serpent's Fang": {
+            "name": "Serpents Fang",
+            "image": "itemImages/SerpentsFang.png"
+        },
+        "Seryldas Grudge": {
+            "name": "Serylda's Grudge",
+            "image": "itemImages/SeryldasGrudge.png"
+        },
+        "Shadowflame": {
+            "name": "Shadowflame",
+            "image": "itemImages/Shadowflame.png"
+        },
+        "Shurelyas Battlesong": {
+            "name": "Shurelya's Battlesong",
+            "image": "itemImages/ShurelyasBattlesong.png"
+        },
+        "Sorcerers Shoes": {
+            "name": "Sorcerer's Shoes",
+            "image": "itemImages/SorcerersShoes.png"
+        },
+        "Spear of Shojin": {
+            "name": "Spear of Shojin",
+            "image": "itemImages/SpearofShojin.png"
+        },
+        "Spirit Visage": {
+            "name": "Spirit Visage",
+            "image": "itemImages/SpiritVisage.png"
+        },
+        "Staff of Flowing Water": {
+            "name": "Staff of Flowing Water",
+            "image": "itemImages/StaffofFlowingWater.png"
+        },
+        "Statikk Shiv": {
+            "name": "Statikk Shiv",
+            "image": "itemImages/StatikkShiv.png"
+        },
+        "Steraks Gage": {
+            "name": "Sterak's Gage",
+            "image": "itemImages/SteraksGage.png"
+        },
+        "Stormrazor": {
+            "name": "Stormrazor",
+            "image": "itemImages/Stormrazor.png"
+        },
+        "Stormsurge": {
+            "name": "Stormsurge",
+            "image": "itemImages/Stormsurge.png"
+        },
+        "Stridebreaker": {
+            "name": "Stridebreaker",
+            "image": "itemImages/Stridebreaker.png"
+        },
+        "Sundered Sky": {
+            "name": "Sundered Sky",
+            "image": "itemImages/SunderedSky.png"
+        },
+        "Sunfire Aegis": {
+            "name": "Sunfire Aegis",
+            "image": "itemImages/SunfireAegis.png"
+        },
+        "Terminus": {
+            "name": "Terminus",
+            "image": "itemImages/Terminus.png"
+        },
+        "The Collector": {
+            "name": "The Collector",
+            "image": "itemImages/TheCollector.png"
+        },
+        "Thornmail": {
+            "name": "Thornmail",
+            "image": "itemImages/Thornmail.png"
+        },
+        "Titanic Hydra": {
+            "name": "Titanic Hydra",
+            "image": "itemImages/TitanicHydra.png"
+        },
+        "Trailblazer": {
+            "name": "Trailblazer",
+            "image": "itemImages/Trailblazer.png"
+        },
+        "Trinity Force": {
+            "name": "Trinity Force",
+            "image": "itemImages/TrinityForce.png"
+        },
+        "Umbral Glaive": {
+            "name": "Umbral Glaive",
+            "image": "itemImages/UmbralGlaive.png"
+        },
+        "Unending Despair": {
+            "name": "Unending Despair",
+            "image": "itemImages/UnendingDespair.png"
+        },
+        "Voltaic Cyclosword": {
+            "name": "Voltaic Cyclosword",
+            "image": "itemImages/VoltaicCyclosword.png"
+        },
+        "Warmogs Armor": {
+            "name": "Warmog's Armor",
+            "image": "itemImages/WarmogsArmor.png"
+        },
+        "Winters Approach": {
+            "name": "Winter's Approach",
+            "image": "itemImages/WintersApproach.png"
+        },
+        "Wits End": {
+            "name": "Wit's End",
+            "image": "itemImages/WitsEnd.png"
+        },
+        "Youmuus Ghostblade": {
+            "name": "Youmuu's Ghostblade",
+            "image": "itemImages/YoumuusGhostblade.png"
+        },
+        "Zekes Convergence": {
+            "name": "Zeke's Convergence",
+            "image": "itemImages/ZekesConvergence.png"
+        },
+        "Zhonyas Hourglass": {
+            "name": "Zhonya's Hourglass",
+            "image": "itemImages/ZhonyasHourglass.png"
+        }
+    },
+    "rune":{
+        "Conquerer": {"name":"Conquerer", "image":"runeImages/Conquerer.png"}
+    }
+}
