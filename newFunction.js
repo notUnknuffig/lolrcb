@@ -5,10 +5,10 @@ class champion_save {
     }
 }
 
-var data = JSON.parse(championData);
-var backSaves = [new champion_save(0, true), new champion_save(0, true)];
+data = JSON.parse(championData);
+backSaves = [new champion_save(0, true), new champion_save(0, true)];
 backSaves.push(new champion_save(0, true));
-console.log(backSaves)
+console.log(backSaves);
 let oneTimeSave = new champion_save(0, true);
 
 function loadChampion(index, isMeta) {
@@ -17,10 +17,9 @@ function loadChampion(index, isMeta) {
 }
 
 function rerollChampion() {
-    var index = Math.floor(Math.random() * data.length);
+    index = Math.floor(Math.random() * data.length);
     loadChampion(index, true);
-    var champion = new champion_save(index, true)
-    console.log(backSaves);
+    champion = new champion_save(index, true);
     backSaves.push(champion);
     if (backSaves.length >= 10) {
         backSaves.pop();
