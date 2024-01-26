@@ -1,0 +1,4 @@
+data = [
+        {"name":"Aatrox", "image":"championImages/Aatrox.jpg", "builds":[["Plated Steelcaps", "Sundered Sky", "Spear of Shojin", "Steraks Gage", "Deaths Dance", "Guardian Angel"]]},
+        {"name":"Ahri", "image":"championImages/Ahri.jpg", "builds":[["Plated Steelcaps", "Sundered Sky", "Spear of Shojin", "Steraks Gage", "Deaths Dance", "Guardian Angel"]]}
+    ]
