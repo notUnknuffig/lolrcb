@@ -3,1268 +3,3151 @@ data = {
         {
             "name": "Aatrox",
             "image": "championImages/Aatrox.jpg",
-            "build": ["Sundered Sky","Plated Steelcaps","Spear of Shojin","Steraks Gage","Deaths Dance","Guardian Angel","Conqerer"]
+            "build": [
+                "Sundered Sky",
+                "Plated Steelcaps",
+                "Spear of Shojin",
+                "Steraks Gage",
+                "Deaths Dance",
+                "Guardian Angel",
+                "Conquerer"
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Ahri",
             "image": "championImages/Ahri.jpg",
-            "build": ["Ludens Champion","Sorcerers Shoes","Stormsurge","Rabadons Deathcap","Mejais Soulsteeler","Zhonyas Hourglass","Electrocute"]
+            "build": [
+                "Ludens Companion",
+                "Sorcerers Shoes",
+                "Stormsurge",
+                "Rabadons Deathcap",
+                "Mejais Soulstealer",
+                "Zhonyas Hourglass",
+                "Electrocute"
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Akali",
             "image": "championImages/Akali.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "Sorcerers Shoes",
+                "Stormsurge",
+                "Mejais Soulstealer",
+                "Zhonyas Hourglass",
+                "Rabadons Deathcap",
+                "Shadowflame",
+                "Electrocute"
+            ],
+            "scaling": "AP",
+            "sub scaling": "AD"
         },
         {
             "name": "Akshan",
             "image": "championImages/Akshan.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "Voltaic Cyclonsword",
+                "Berserkers Greaves",
+                "The Collector",
+                "Rapid Firecannon",
+                "Infinity Edge",
+                "Guardian Angel",
+                "Fleet Footwork"
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Alistar",
             "image": "championImages/Alistar.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "Mobility Boots",
+                "Trailblazer",
+                "Knights Vow",
+                "Thornmail",
+                "Frozen Heart",
+                "JakSho The Protean",
+                "Phase Rush"
+            ],
+            "scaling": "RES",
+            "sub scaling": "AP"
         },
         {
             "name": "Amumu",
             "image": "championImages/Amumu.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "Sunfire Aegis",
+                "Plated Steelcaps",
+                "Liandrys Torment",
+                "Thornmail",
+                "Kaenic Rookern",
+                "Abyssal Mask",
+                "Conquerer"
+            ],
+            "scaling": "RES",
+            "sub scaling": "AP"
         },
         {
             "name": "Anivia",
             "image": "championImages/Anivia.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "Rod Of Ages",
+                "Sorcerers Shoes",
+                "Archangels Staff",
+                "Zhonyas Hourglass",
+                "Rabadons Deathcap",
+                "Mejais Soulstealer",
+                "Electrocute"
+            ],
+            "scaling": "AP",
+            "sub scaling": "HP"
         },
         {
             "name": "Annie",
             "image": "championImages/Annie.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Aphelios",
             "image": "championImages/Aphelios.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Ashe",
             "image": "championImages/Ashe.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Aurelion Sol",
             "image": "championImages/AurelionSol.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Azir",
             "image": "championImages/Azir.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AD"
         },
         {
             "name": "Bard",
             "image": "championImages/Bard.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "AP"
         },
         {
             "name": "Bel'Veth",
             "image": "championImages/Belveth.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "Blitzcrank",
             "image": "championImages/Blitzcrank.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "AP"
         },
         {
             "name": "Brand",
             "image": "championImages/Brand.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Braum",
             "image": "championImages/Braum.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "AD"
         },
         {
             "name": "Briar",
             "image": "championImages/Briar.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "Caitlyn",
             "image": "championImages/Caitlyn.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Camille",
             "image": "championImages/Camille.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Cassiopeia",
             "image": "championImages/Cassiopeia.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Cho'Gath",
             "image": "championImages/Chogath.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "HP",
+            "sub scaling": "AP"
         },
         {
             "name": "Corki",
             "image": "championImages/Corki.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "Darius",
             "image": "championImages/Darius.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Diana",
             "image": "championImages/Diana.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Draven",
             "image": "championImages/Draven.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Dr. Mundo",
             "image": "championImages/DrMundo.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "HP",
+            "sub scaling": "HP"
         },
         {
             "name": "Ekko",
             "image": "championImages/Ekko.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Elise",
             "image": "championImages/Elise.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Evelynn",
             "image": "championImages/Evelynn.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Ezreal",
             "image": "championImages/Ezreal.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Fiddlesticks",
             "image": "championImages/FiddleSticks.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Fiora",
             "image": "championImages/Fiora.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Fizz",
             "image": "championImages/Fizz.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Galio",
             "image": "championImages/Galio.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "RES"
         },
         {
             "name": "Gangplank",
             "image": "championImages/Gangplank.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Garen",
             "image": "championImages/Garen.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Gnar",
             "image": "championImages/Gnar.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Gragas",
             "image": "championImages/Gragas.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "HP"
         },
         {
             "name": "Graves",
             "image": "championImages/Graves.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Gwen",
             "image": "championImages/Gwen.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Hecarim",
             "image": "championImages/Hecarim.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Heimerdinger",
             "image": "championImages/Heimerdinger.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Hwei",
             "image": "championImages/Hwei.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Illaoi",
             "image": "championImages/Illaoi.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Irelia",
             "image": "championImages/Irelia.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "RES"
         },
         {
             "name": "Ivern",
             "image": "championImages/Ivern.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "AP"
         },
         {
             "name": "Janna",
             "image": "championImages/Janna.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "AP"
         },
         {
             "name": "Jarvan IV",
             "image": "championImages/JarvanIV.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "RES"
         },
         {
             "name": "Jax",
             "image": "championImages/Jax.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "Jayce",
             "image": "championImages/Jayce.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Jhin",
             "image": "championImages/Jhin.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Jinx",
             "image": "championImages/Jinx.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Kaisa",
             "image": "championImages/Kaisa.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "Kalista",
             "image": "championImages/Kalista.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Karma",
             "image": "championImages/Karma.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "AP"
         },
         {
             "name": "Karthus",
             "image": "championImages/Karthus.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Kassadin",
             "image": "championImages/Kassadin.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Katarina",
             "image": "championImages/Katarina.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AD"
         },
         {
             "name": "Kayle",
             "image": "championImages/Kayle.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AD"
         },
         {
             "name": "Kayn",
             "image": "championImages/Kayn.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Kennen",
             "image": "championImages/Kennen.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Kha'Zix",
             "image": "championImages/Khazix.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Kindred",
             "image": "championImages/Kindred.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Kled",
             "image": "championImages/Kled.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Kog'Maw",
             "image": "championImages/KogMaw.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "K'Sante",
             "image": "championImages/KSante.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "RES"
         },
         {
             "name": "Leblanc",
             "image": "championImages/Leblanc.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AD"
         },
         {
             "name": "Lee Sin",
             "image": "championImages/LeeSin.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Leona",
             "image": "championImages/Leona.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "RES"
         },
         {
             "name": "Lillia",
             "image": "championImages/Lillia.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Lissandra",
             "image": "championImages/Lissandra.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Lucian",
             "image": "championImages/Lucian.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Lulu",
             "image": "championImages/Lulu.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "AP"
         },
         {
             "name": "Lux",
             "image": "championImages/Lux.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Malphite",
             "image": "championImages/Malphite.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "AP"
         },
         {
             "name": "Malzahar",
             "image": "championImages/Malzahar.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Maokai",
             "image": "championImages/Maokai.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "HP"
         },
         {
             "name": "Master Yi",
             "image": "championImages/MasterYi.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Milio",
             "image": "championImages/Milio.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "AP"
         },
         {
             "name": "Miss Fortune",
             "image": "championImages/MissFortune.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "Wukong",
             "image": "championImages/MonkeyKing.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Mordekaiser",
             "image": "championImages/Mordekaiser.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "HP"
         },
         {
             "name": "Morgana",
             "image": "championImages/Morgana.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Naafiri",
             "image": "championImages/Naafiri.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Nami",
             "image": "championImages/Nami.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "AP"
         },
         {
             "name": "Nasus",
             "image": "championImages/Nasus.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "RES"
         },
         {
             "name": "Nautilus",
             "image": "championImages/Nautilus.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "AP"
         },
         {
             "name": "Neeko",
             "image": "championImages/Neeko.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AD"
         },
         {
             "name": "Nidalee",
             "image": "championImages/Nidalee.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Nilah",
             "image": "championImages/Nilah.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Nocturne",
             "image": "championImages/Nocturne.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Nunu",
             "image": "championImages/Nunu.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Olaf",
             "image": "championImages/Olaf.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Orianna",
             "image": "championImages/Orianna.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Ornn",
             "image": "championImages/Ornn.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "RES"
         },
         {
             "name": "Pantheon",
             "image": "championImages/Pantheon.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Poppy",
             "image": "championImages/Poppy.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "AD"
         },
         {
             "name": "Pyke",
             "image": "championImages/Pyke.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Qiyana",
             "image": "championImages/Qiyana.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Quinn",
             "image": "championImages/Quinn.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Rakan",
             "image": "championImages/Rakan.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "RES"
         },
         {
             "name": "Rammus",
             "image": "championImages/Rammus.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "RES"
         },
         {
             "name": "Rek'Sai",
             "image": "championImages/RekSai.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Rell",
             "image": "championImages/Rell.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "AP"
         },
         {
             "name": "Renata Glasc",
             "image": "championImages/Renata.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "AP"
         },
         {
             "name": "Renekton",
             "image": "championImages/Renekton.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Rengar",
             "image": "championImages/Rengar.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Riven",
             "image": "championImages/Riven.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Rumble",
             "image": "championImages/Rumble.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Ryze",
             "image": "championImages/Ryze.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Samira",
             "image": "championImages/Samira.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Sejuani",
             "image": "championImages/Sejuani.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "RES"
         },
         {
             "name": "Senna",
             "image": "championImages/Senna.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Seraphine",
             "image": "championImages/Seraphine.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "AP"
         },
         {
             "name": "Sett",
             "image": "championImages/Sett.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "HP"
         },
         {
             "name": "Shaco",
             "image": "championImages/Shaco.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "Shen",
             "image": "championImages/Shen.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "HP",
+            "sub scaling": "HP"
         },
         {
             "name": "Shyvana",
             "image": "championImages/Shyvana.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AD"
         },
         {
             "name": "Singed",
             "image": "championImages/Singed.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Sion",
             "image": "championImages/Sion.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "HP",
+            "sub scaling": "RES"
         },
         {
             "name": "Sivir",
             "image": "championImages/Sivir.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Skarner",
             "image": "championImages/Skarner.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Smolder",
             "image": "championImages/Smolder.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "Sona",
             "image": "championImages/Sona.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "AP"
         },
         {
             "name": "Soraka",
             "image": "championImages/Soraka.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "SUP"
         },
         {
             "name": "Swain",
             "image": "championImages/Swain.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "HP"
         },
         {
             "name": "Sylas",
             "image": "championImages/Sylas.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Syndra",
             "image": "championImages/Syndra.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Tahm Kench",
             "image": "championImages/TahmKench.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "HP",
+            "sub scaling": "AP"
         },
         {
             "name": "Taliyah",
             "image": "championImages/Taliyah.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Talon",
             "image": "championImages/Talon.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Taric",
             "image": "championImages/Taric.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "RES"
         },
         {
             "name": "Teemo",
             "image": "championImages/Teemo.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AD"
         },
         {
             "name": "Thresh",
             "image": "championImages/Thresh.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "RES",
+            "sub scaling": "AD"
         },
         {
             "name": "Tristana",
             "image": "championImages/Tristana.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Trundle",
             "image": "championImages/Trundle.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Tryndamere",
             "image": "championImages/Tryndamere.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Twisted Fate",
             "image": "championImages/TwistedFate.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AD"
         },
         {
             "name": "Twitch",
             "image": "championImages/Twitch.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "Udyr",
             "image": "championImages/Udyr.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "Urgot",
             "image": "championImages/Urgot.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Varus",
             "image": "championImages/Varus.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Vayne",
             "image": "championImages/Vayne.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Veigar",
             "image": "championImages/Veigar.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Vel'Koz",
             "image": "championImages/Velkoz.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Vex",
             "image": "championImages/Vex.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Vi",
             "image": "championImages/Vi.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Viego",
             "image": "championImages/Viego.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Viktor",
             "image": "championImages/Viktor.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Vladimir",
             "image": "championImages/Vladimir.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "HP"
         },
         {
             "name": "Volibear",
             "image": "championImages/Volibear.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "Warwick",
             "image": "championImages/Warwick.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         {
             "name": "Xayah",
             "image": "championImages/Xayah.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Xerath",
             "image": "championImages/Xerath.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Xin Zhao",
             "image": "championImages/XinZhao.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Yasuo",
             "image": "championImages/Yasuo.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Yone",
             "image": "championImages/Yone.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Yorick",
             "image": "championImages/Yorick.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Yuumi",
             "image": "championImages/Yuumi.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "SUP",
+            "sub scaling": "AP"
         },
         {
             "name": "Zac",
             "image": "championImages/Zac.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "HP",
+            "sub scaling": "AP"
         },
         {
             "name": "Zed",
             "image": "championImages/Zed.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Zeri",
             "image": "championImages/Zeri.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         {
             "name": "Ziggs",
             "image": "championImages/Ziggs.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Zilean",
             "image": "championImages/Zilean.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Zoe",
             "image": "championImages/Zoe.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         {
             "name": "Zyra",
             "image": "championImages/Zyra.jpg",
-            "build": ["","","","","","",""]
+            "build": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "scaling": "AP",
+            "sub scaling": "AP"
         }
     ],
     "item":{
         "Abyssal Mask": {
             "name": "Abyssal Mask",
-            "image": "itemImages/AbyssalMask.png"
+            "image": "itemImages/AbyssalMask.png",
+            "scaling": "RES",
+            "sub scaling": "HP"
         },
         "Anathemas Chains": {
             "name": "Anathema's Chains",
-            "image": "itemImages/AnathemasChains.png"
+            "image": "itemImages/AnathemasChains.png",
+            "scaling": "HP",
+            "sub scaling": "HP"
         },
         "Archangels Staff": {
-            "name": "Archangels Staff",
-            "image": "itemImages/ArchangelsStaff.png"
+            "name": "Archangel's Staff",
+            "image": "itemImages/ArchangelsStaff.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Ardent Censer": {
             "name": "Ardent Censer",
-            "image": "itemImages/ArdentCenser.png"
+            "image": "itemImages/ArdentCenser.png",
+            "scaling": "SUP",
+            "sub scaling": "SUP"
         },
         "Axiom Arc": {
             "name": "Axiom Arc",
-            "image": "itemImages/AxiomArc.png"
+            "image": "itemImages/AxiomArc.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Banshees Veil": {
             "name": "Banshee's Veil",
-            "image": "itemImages/BansheesVeil.png"
+            "image": "itemImages/BansheesVeil.png",
+            "scaling": "AP",
+            "sub scaling": "RES"
         },
         "Berserkers Greaves": {
             "name": "Berserker's Greaves",
-            "image": "itemImages/BerserkersGreaves.png"
+            "image": "itemImages/BerserkersGreaves.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Black Cleaver": {
             "name": "Black Cleaver",
-            "image": "itemImages/BlackCleaver.png"
+            "image": "itemImages/BlackCleaver.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Blade of The Ruined King": {
             "name": "Blade of The Ruined King",
-            "image": "itemImages/BladeofTheRuinedKing.png"
+            "image": "itemImages/BladeofTheRuinedKing.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Bloodthirster": {
             "name": "Bloodthirster",
-            "image": "itemImages/Bloodthirster.png"
+            "image": "itemImages/Bloodthirster.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Boots of Swiftness": {
             "name": "Boots of Swiftness",
-            "image": "itemImages/BootsofSwiftness.png"
+            "image": "itemImages/BootsofSwiftness.png",
+            "scaling": "*",
+            "sub scaling": "*"
         },
         "Chempunk Chainsword": {
             "name": "Chempunk Chainsword",
-            "image": "itemImages/ChempunkChainsword.png"
+            "image": "itemImages/ChempunkChainsword.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Cosmic Drive": {
             "name": "Cosmic Drive",
-            "image": "itemImages/CosmicDrive.png"
+            "image": "itemImages/CosmicDrive.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Cryptbloom": {
             "name": "Cryptbloom",
-            "image": "itemImages/Cryptbloom.png"
+            "image": "itemImages/Cryptbloom.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Dawncore": {
             "name": "Dawncore",
-            "image": "itemImages/Dawncore.png"
+            "image": "itemImages/Dawncore.png",
+            "scaling": "SUP",
+            "sub scaling": "SUP"
         },
         "Dead Mans Plate": {
             "name": "Dead Man's Plate",
-            "image": "itemImages/DeadMansPlate.png"
+            "image": "itemImages/DeadMansPlate.png",
+            "scaling": "AD",
+            "sub scaling": "RES"
         },
         "Deaths Dance": {
             "name": "Death's Dance",
-            "image": "itemImages/DeathsDance.png"
+            "image": "itemImages/DeathsDance.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Echoes of Helia": {
             "name": "Echoes of Helia",
-            "image": "itemImages/EchoesofHelia.png"
+            "image": "itemImages/EchoesofHelia.png",
+            "scaling": "SUP",
+            "sub scaling": "SUP"
         },
         "Eclipse": {
             "name": "Eclipse",
-            "image": "itemImages/Eclipse.png"
+            "image": "itemImages/Eclipse.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Edge of Night": {
             "name": "Edge of Night",
-            "image": "itemImages/EdgeofNight.png"
+            "image": "itemImages/EdgeofNight.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Essence Reaver": {
             "name": "Essence Reaver",
-            "image": "itemImages/EssenceReaver.png"
+            "image": "itemImages/EssenceReaver.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Experimental Hexplate": {
             "name": "Experimental Hexplate",
-            "image": "itemImages/ExperimentalHexplate.png"
+            "image": "itemImages/ExperimentalHexplate.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Force of Nature": {
             "name": "Force of Nature",
-            "image": "itemImages/ForceofNature.png"
+            "image": "itemImages/ForceofNature.png",
+            "scaling": "RES",
+            "sub scaling": "HP"
         },
         "Frozen Heart": {
             "name": "Frozen Heart",
-            "image": "itemImages/FrozenHeart.png"
+            "image": "itemImages/FrozenHeart.png",
+            "scaling": "RES",
+            "sub scaling": "RES"
         },
         "Guardian Angel": {
             "name": "Guardian Angel",
-            "image": "itemImages/GuardianAngel.png"
+            "image": "itemImages/GuardianAngel.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Guinsoo's Rageblade": {
             "name": "Guinsoos Rageblade",
-            "image": "itemImages/GuinsoosRageblade.png"
+            "image": "itemImages/GuinsoosRageblade.png",
+            "scaling": "AD",
+            "sub scaling": "AP"
         },
         "Heartsteel": {
             "name": "Heartsteel",
-            "image": "itemImages/Heartsteel.png"
+            "image": "itemImages/Heartsteel.png",
+            "scaling": "HP",
+            "sub scaling": "HP"
         },
         "Hextech Rocketbelt": {
             "name": "Hextech Rocketbelt",
-            "image": "itemImages/HextechRocketbelt.png"
+            "image": "itemImages/HextechRocketbelt.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Hollow Radiance": {
             "name": "Hollow Radiance",
-            "image": "itemImages/HollowRadiance.png"
+            "image": "itemImages/HollowRadiance.png",
+            "scaling": "RES",
+            "sub scaling": "HP"
         },
         "Horizon Focus": {
             "name": "Horizon Focus",
-            "image": "itemImages/HorizonFocus.png"
+            "image": "itemImages/HorizonFocus.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Hubris": {
             "name": "Hubris",
-            "image": "itemImages/Hubris.png"
+            "image": "itemImages/Hubris.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Hullbreaker": {
             "name": "Hullbreaker",
-            "image": "itemImages/Hullbreaker.png"
+            "image": "itemImages/Hullbreaker.png",
+            "scaling": "AD",
+            "sub scaling": "RES"
         },
         "Iceborn Gauntlet": {
             "name": "Iceborn Gauntlet",
-            "image": "itemImages/IcebornGauntlet.png"
+            "image": "itemImages/IcebornGauntlet.png",
+            "scaling": "RES",
+            "sub scaling": "HP"
         },
         "Immortal Shieldbow": {
             "name": "Immortal Shieldbow",
-            "image": "itemImages/ImmortalShieldbow.png"
+            "image": "itemImages/ImmortalShieldbow.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Imperial Mandate": {
             "name": "Imperial Mandate",
-            "image": "itemImages/ImperialMandate.png"
+            "image": "itemImages/ImperialMandate.png",
+            "scaling": "SUP",
+            "sub scaling": "SUP"
         },
         "Infinity Edge": {
             "name": "Infinity Edge",
-            "image": "itemImages/InfinityEdge.png"
+            "image": "itemImages/InfinityEdge.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Ionian Boots of Lucidity": {
             "name": "Ionian Boots of Lucidity",
-            "image": "itemImages/IonianBootsofLucidity.png"
+            "image": "itemImages/IonianBootsofLucidity.png",
+            "scaling": "*",
+            "sub scaling": "*"
         },
         "JakSho The Protean": {
             "name": "JakSho, The Protean",
-            "image": "itemImages/JakSho,TheProtean.png"
+            "image": "itemImages/JakSho,TheProtean.png",
+            "scaling": "RES",
+            "sub scaling": "HP"
         },
         "Kaenic Rookern": {
             "name": "Kaenic Rookern",
-            "image": "itemImages/KaenicRookern.png"
+            "image": "itemImages/KaenicRookern.png",
+            "scaling": "RES",
+            "sub scaling": "HP"
         },
         "Knights Vow": {
             "name": "Knight's Vow",
-            "image": "itemImages/KnightsVow.png"
+            "image": "itemImages/KnightsVow.png",
+            "scaling": "RES",
+            "sub scaling": "HP"
         },
         "Kraken Slayer": {
             "name": "Kraken Slayer",
-            "image": "itemImages/KrakenSlayer.png"
+            "image": "itemImages/KrakenSlayer.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
-        "Liandry's Torment": {
-            "name": "Liandrys Torment",
-            "image": "itemImages/LiandrysTorment.png"
+        "Liandrys Torment": {
+            "name": "Liandry's Torment",
+            "image": "itemImages/LiandrysTorment.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Lich Bane": {
             "name": "Lich Bane",
-            "image": "itemImages/LichBane.png"
+            "image": "itemImages/LichBane.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Locket of the Iron Solari": {
             "name": "Locket of the Iron Solari",
-            "image": "itemImages/LocketoftheIronSolari.png"
+            "image": "itemImages/LocketoftheIronSolari.png",
+            "scaling": "RES",
+            "sub scaling": "RES"
         },
         "Lord Dominiks Regards": {
             "name": "Lord Dominiks Regards",
-            "image": "itemImages/LordDominiksRegards.png"
+            "image": "itemImages/LordDominiksRegards.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Ludens Companion": {
             "name": "Luden's Companion",
-            "image": "itemImages/LudensCompanion.png"
+            "image": "itemImages/LudensCompanion.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Malignance": {
             "name": "Malignance",
-            "image": "itemImages/Malignance.png"
+            "image": "itemImages/Malignance.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Manamune": {
             "name": "Manamune",
-            "image": "itemImages/Manamune.png"
+            "image": "itemImages/Manamune.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Maw of Malmortius": {
             "name": "Maw of Malmortius",
-            "image": "itemImages/MawofMalmortius.png"
+            "image": "itemImages/MawofMalmortius.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Mejais Soulstealer": {
             "name": "Mejai's Soulstealer",
-            "image": "itemImages/MejaisSoulstealer.png"
+            "image": "itemImages/MejaisSoulstealer.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Mercurial Scimitar": {
             "name": "Mercurial Scimitar",
-            "image": "itemImages/MercurialScimitar.png"
+            "image": "itemImages/MercurialScimitar.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
+        },
+        "Mercurys Treads": {
+            "name": "Mercury's Treads",
+            "image": "itemImages/MercurysTreads.png",
+            "scaling": "*",
+            "sub scaling": "*"
         },
         "Mikaels Blessing": {
             "name": "Mikael's Blessing",
-            "image": "itemImages/MikaelsBlessing.png"
+            "image": "itemImages/MikaelsBlessing.png",
+            "scaling": "SUP",
+            "sub scaling": "SUP"
         },
         "Mobility Boots": {
             "name": "Mobility Boots",
-            "image": "itemImages/MobilityBoots.png"
+            "image": "itemImages/MobilityBoots.png",
+            "scaling": "SUP",
+            "sub scaling": "SUP"
         },
         "Moonstone Renewer": {
             "name": "Moonstone Renewer",
-            "image": "itemImages/MoonstoneRenewer.png"
+            "image": "itemImages/MoonstoneRenewer.png",
+            "scaling": "SUP",
+            "sub scaling": "SUP"
         },
         "Morellonomicon": {
             "name": "Morellonomicon",
-            "image": "itemImages/Morellonomicon.png"
+            "image": "itemImages/Morellonomicon.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Mortal Reminder": {
             "name": "Mortal Reminder",
-            "image": "itemImages/MortalReminder.png"
+            "image": "itemImages/MortalReminder.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Nashors Tooth": {
             "name": "Nashor's Tooth",
-            "image": "itemImages/NashorsTooth.png"
+            "image": "itemImages/NashorsTooth.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Navori Quickblades": {
             "name": "Navori Quickblades",
-            "image": "itemImages/NavoriQuickblades.png"
+            "image": "itemImages/NavoriQuickblades.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Night Harvester": {
             "name": "Night Harvester",
-            "image": "itemImages/NightHarvester.png"
+            "image": "itemImages/NightHarvester.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Opportunity": {
             "name": "Opportunity",
-            "image": "itemImages/Opportunity.png"
+            "image": "itemImages/Opportunity.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Phantom Dancer": {
             "name": "Phantom Dancer",
-            "image": "itemImages/PhantomDancer.png"
+            "image": "itemImages/PhantomDancer.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Plated Steelcaps": {
             "name": "Plated Steelcaps",
-            "image": "itemImages/PlatedSteelcaps.png"
+            "image": "itemImages/PlatedSteelcaps.png",
+            "scaling": "*",
+            "sub scaling": "*"
         },
         "Profane Hydra": {
             "name": "Profane Hydra",
-            "image": "itemImages/ProfaneHydra.png"
+            "image": "itemImages/ProfaneHydra.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Rabadons Deathcap": {
             "name": "Rabadon's Deathcap",
-            "image": "itemImages/RabadonsDeathcap.png"
+            "image": "itemImages/RabadonsDeathcap.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Radiant Virtue": {
             "name": "Radiant Virtue",
-            "image": "itemImages/RadiantVirtue.png"
+            "image": "itemImages/RadiantVirtue.png",
+            "scaling": "RES",
+            "sub scaling": "HP"
         },
         "Randuins Omen": {
             "name": "Randuin's Omen",
-            "image": "itemImages/RanduinsOmen.png"
+            "image": "itemImages/RanduinsOmen.png",
+            "scaling": "RES",
+            "sub scaling": "HP"
         },
         "Rapid Firecannon": {
             "name": "Rapid Firecannon",
-            "image": "itemImages/RapidFirecannon.png"
+            "image": "itemImages/RapidFirecannon.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Ravenous Hydra": {
             "name": "Ravenous Hydra",
-            "image": "itemImages/RavenousHydra.png"
+            "image": "itemImages/RavenousHydra.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Redemption": {
             "name": "Redemption",
-            "image": "itemImages/Redemption.png"
+            "image": "itemImages/Redemption.png",
+            "scaling": "SUP",
+            "sub scaling": "SUP"
         },
         "Riftmaker": {
             "name": "Riftmaker",
-            "image": "itemImages/Riftmaker.png"
+            "image": "itemImages/Riftmaker.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Rod of Ages": {
             "name": "Rod of Ages",
-            "image": "itemImages/RodofAges.png"
+            "image": "itemImages/RodofAges.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Runaans Hurricane": {
             "name": "Runaan's Hurricane",
-            "image": "itemImages/RunaansHurricane.png"
+            "image": "itemImages/RunaansHurricane.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Rylais Crystal Scepter": {
             "name": "Rylai's Crystal Scepter",
-            "image": "itemImages/RylaisCrystalScepter.png"
+            "image": "itemImages/RylaisCrystalScepter.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Serpent's Fang": {
             "name": "Serpents Fang",
-            "image": "itemImages/SerpentsFang.png"
+            "image": "itemImages/SerpentsFang.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Seryldas Grudge": {
             "name": "Serylda's Grudge",
-            "image": "itemImages/SeryldasGrudge.png"
+            "image": "itemImages/SeryldasGrudge.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Shadowflame": {
             "name": "Shadowflame",
-            "image": "itemImages/Shadowflame.png"
+            "image": "itemImages/Shadowflame.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Shurelyas Battlesong": {
             "name": "Shurelya's Battlesong",
-            "image": "itemImages/ShurelyasBattlesong.png"
+            "image": "itemImages/ShurelyasBattlesong.png",
+            "scaling": "SUP",
+            "sub scaling": "SUP"
         },
         "Sorcerers Shoes": {
             "name": "Sorcerer's Shoes",
-            "image": "itemImages/SorcerersShoes.png"
+            "image": "itemImages/SorcerersShoes.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Spear of Shojin": {
             "name": "Spear of Shojin",
-            "image": "itemImages/SpearofShojin.png"
+            "image": "itemImages/SpearofShojin.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Spirit Visage": {
             "name": "Spirit Visage",
-            "image": "itemImages/SpiritVisage.png"
+            "image": "itemImages/SpiritVisage.png",
+            "scaling": "HP",
+            "sub scaling": "RES"
         },
         "Staff of Flowing Water": {
             "name": "Staff of Flowing Water",
-            "image": "itemImages/StaffofFlowingWater.png"
+            "image": "itemImages/StaffofFlowingWater.png",
+            "scaling": "SUP",
+            "sub scaling": "SUP"
         },
         "Statikk Shiv": {
             "name": "Statikk Shiv",
-            "image": "itemImages/StatikkShiv.png"
+            "image": "itemImages/StatikkShiv.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Steraks Gage": {
             "name": "Sterak's Gage",
-            "image": "itemImages/SteraksGage.png"
+            "image": "itemImages/SteraksGage.png",
+            "scaling": "AD",
+            "sub scaling": "HP"
         },
         "Stormrazor": {
             "name": "Stormrazor",
-            "image": "itemImages/Stormrazor.png"
+            "image": "itemImages/Stormrazor.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Stormsurge": {
             "name": "Stormsurge",
-            "image": "itemImages/Stormsurge.png"
+            "image": "itemImages/Stormsurge.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         },
         "Stridebreaker": {
             "name": "Stridebreaker",
-            "image": "itemImages/Stridebreaker.png"
+            "image": "itemImages/Stridebreaker.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Sundered Sky": {
             "name": "Sundered Sky",
-            "image": "itemImages/SunderedSky.png"
+            "image": "itemImages/SunderedSky.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Sunfire Aegis": {
             "name": "Sunfire Aegis",
-            "image": "itemImages/SunfireAegis.png"
+            "image": "itemImages/SunfireAegis.png",
+            "scaling": "HP",
+            "sub scaling": "RES"
         },
         "Terminus": {
             "name": "Terminus",
-            "image": "itemImages/Terminus.png"
+            "image": "itemImages/Terminus.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "The Collector": {
             "name": "The Collector",
-            "image": "itemImages/TheCollector.png"
+            "image": "itemImages/TheCollector.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Thornmail": {
             "name": "Thornmail",
-            "image": "itemImages/Thornmail.png"
+            "image": "itemImages/Thornmail.png",
+            "scaling": "RES",
+            "sub scaling": "HP"
         },
         "Titanic Hydra": {
             "name": "Titanic Hydra",
-            "image": "itemImages/TitanicHydra.png"
+            "image": "itemImages/TitanicHydra.png",
+            "scaling": "HP",
+            "sub scaling": "AD"
         },
         "Trailblazer": {
             "name": "Trailblazer",
-            "image": "itemImages/Trailblazer.png"
+            "image": "itemImages/Trailblazer.png",
+            "scaling": "RES",
+            "sub scaling": "SUP"
         },
         "Trinity Force": {
             "name": "Trinity Force",
-            "image": "itemImages/TrinityForce.png"
+            "image": "itemImages/TrinityForce.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Umbral Glaive": {
             "name": "Umbral Glaive",
-            "image": "itemImages/UmbralGlaive.png"
+            "image": "itemImages/UmbralGlaive.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Unending Despair": {
             "name": "Unending Despair",
-            "image": "itemImages/UnendingDespair.png"
+            "image": "itemImages/UnendingDespair.png",
+            "scaling": "RES",
+            "sub scaling": "HP"
         },
         "Voltaic Cyclosword": {
             "name": "Voltaic Cyclosword",
-            "image": "itemImages/VoltaicCyclosword.png"
+            "image": "itemImages/VoltaicCyclosword.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Warmogs Armor": {
             "name": "Warmog's Armor",
-            "image": "itemImages/WarmogsArmor.png"
+            "image": "itemImages/WarmogsArmor.png",
+            "scaling": "HP",
+            "sub scaling": "HP"
         },
         "Winters Approach": {
             "name": "Winter's Approach",
-            "image": "itemImages/WintersApproach.png"
+            "image": "itemImages/WintersApproach.png",
+            "scaling": "HP",
+            "sub scaling": "HP"
         },
         "Wits End": {
             "name": "Wit's End",
-            "image": "itemImages/WitsEnd.png"
+            "image": "itemImages/WitsEnd.png",
+            "scaling": "RES",
+            "sub scaling": "AD"
         },
         "Youmuus Ghostblade": {
             "name": "Youmuu's Ghostblade",
-            "image": "itemImages/YoumuusGhostblade.png"
+            "image": "itemImages/YoumuusGhostblade.png",
+            "scaling": "AD",
+            "sub scaling": "AD"
         },
         "Zekes Convergence": {
             "name": "Zeke's Convergence",
-            "image": "itemImages/ZekesConvergence.png"
+            "image": "itemImages/ZekesConvergence.png",
+            "scaling": "RES",
+            "sub scaling": "SUP"
         },
         "Zhonyas Hourglass": {
             "name": "Zhonya's Hourglass",
-            "image": "itemImages/ZhonyasHourglass.png"
+            "image": "itemImages/ZhonyasHourglass.png",
+            "scaling": "AP",
+            "sub scaling": "AP"
         }
     },
     "rune":{
         "Conquerer": {"name":"Conquerer", "image":"runeImages/Conqueror.png"},
-        "PressTheAttack": {"name":"Press the Attack", "image":"runeImages/PressTheAttack.png"},
-        "LethalTempo": {"name":"Lethal Tempo", "image":"runeImages/LethalTempo.png"},
-        "FirstStrike": {"name":"First Strike", "image":"runeImages/FirstStrike.png"},
+        "Press The Attack": {"name":"Press the Attack", "image":"runeImages/PressTheAttack.png"},
+        "Lethal Tempo": {"name":"Lethal Tempo", "image":"runeImages/LethalTempo.png"},
+        "First Strike": {"name":"First Strike", "image":"runeImages/FirstStrike.png"},
         "Electrocute": {"name":"Electrocute", "image":"runeImages/Electrocute.png"},
-        "HailOfBlades": {"name":"Hail of Blades", "image":"runeImages/HailOfBlades.png"},
-        "DarkHarvest": {"name":"Dark Harvest", "image":"runeImages/DarkHarvest.png"},
-        "GlacialAugument": {"name":"Glacial Augument", "image":"runeImages/GlacialAugument.png"},
-        "UnsealedSpellbook": {"name":"Unsealed Spellbook", "image":"runeImages/UnsealedSpellbook.png"},
+        "Hail Of Blades": {"name":"Hail of Blades", "image":"runeImages/HailOfBlades.png"},
+        "Dark Harvest": {"name":"Dark Harvest", "image":"runeImages/DarkHarvest.png"},
+        "Glacial Augument": {"name":"Glacial Augument", "image":"runeImages/GlacialAugument.png"},
+        "Unsealed Spellbook": {"name":"Unsealed Spellbook", "image":"runeImages/UnsealedSpellbook.png"},
         "Aftershock": {"name":"Aftershock", "image":"runeImages/VeteranAftershock.png"},
-        "PhaseRush": {"name":"Phase Rush", "image":"runeImages/PhaseRush.png"},
-        "ArcaneComet": {"name":"Arcane Comet", "image":"runeImages/ArcaneComet.png"},
-        "SummonAery": {"name":"Summon Aery", "image":"runeImages/SummonAery.png"},
-        "GraspOfTheUndying": {"name":"Grasp of the Undying", "image":"runeImages/GraspOfTheUndying.png"},
-        "Guardian": {"name":"Guardian", "image":"runeImages/Guardian.png"}
+        "Phase Rush": {"name":"Phase Rush", "image":"runeImages/PhaseRush.png"},
+        "Arcane Comet": {"name":"Arcane Comet", "image":"runeImages/ArcaneComet.png"},
+        "Summon Aery": {"name":"Summon Aery", "image":"runeImages/SummonAery.png"},
+        "Grasp Of The Undying": {"name":"Grasp of the Undying", "image":"runeImages/GraspOfTheUndying.png"},
+        "Guardian": {"name":"Guardian", "image":"runeImages/Guardian.png"},
+        "Fleet Footwork": {"name":"Fleet Footwork", "image":"runeImages/FleetFootwork.png"}
     }
 }

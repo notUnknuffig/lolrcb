@@ -5,6 +5,7 @@ class champion_save {
     }
     set_build(build)
     {
+        //build = ["item_name","item_name","item_name","item_name","item_name","item_name","rune_name"]
         this.build = build;
     }
 }
@@ -14,7 +15,7 @@ backSaves.push(new champion_save(0, true));
 let oneTimeSave = new champion_save(0, true);
 data = JSON.parse(championData);
 
-function loadChampion(index, isMeta) {
+function loadChampion(index) {
     document.getElementById("erandomChampion").innerHTML = "Champion: " + data["champion"][index]["name"];
     document.getElementById("image").src = data["champion"][index]["image"];
     document.getElementById("erandomBuild").innerHTML = "Runes: " + "<img src=" + data["rune"][data["champion"][index]["build"][6]]["image"] +" width=\"30\" height=\"30\">" + data["rune"][data["champion"][index]["build"][6]]["name"]
@@ -24,6 +25,18 @@ function loadChampion(index, isMeta) {
                                                         + "<br>4.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][3]]["image"] +" width=\"20\" height=\"20\">" + data["item"][data["champion"][index]["build"][3]]["name"] 
                                                         + "<br>5.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][4]]["image"] +" width=\"20\" height=\"20\">" + data["item"][data["champion"][index]["build"][4]]["name"]
                                                         + "<br>6.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][5]]["image"] +" width=\"20\" height=\"20\">" + data["item"][data["champion"][index]["build"][5]]["name"];
+}
+
+function loadRandomChampion(index, build) {
+    document.getElementById("erandomChampion").innerHTML = "Champion: " + data["champion"][index]["name"];
+    document.getElementById("image").src = data["champion"][index]["image"];
+    document.getElementById("erandomBuild").innerHTML = "Runes: " + "<img src=" + data["rune"][build[6]]["image"] +" width=\"30\" height=\"30\">" + data["rune"][build[6]]["name"]
+                                                        + "<br>1.Item: "+ "<img src=" + data["item"][build[0]]["image"] +" width=\"20\" height=\"20\">" + data["item"][build[0]]["name"]
+                                                        +"<br>2.Item: " + "<img src=" + data["item"][build[1]]["image"] +" width=\"20\" height=\"20\">" + data["item"][build[1]]["name"]
+                                                        +"<br>3.Item: " + "<img src=" + data["item"][build[2]]["image"] +" width=\"20\" height=\"20\">" + data["item"][build[2]]["name"]
+                                                        + "<br>4.Item: " + "<img src=" + data["item"][build[3]]["image"] +" width=\"20\" height=\"20\">" + data["item"][build[3]]["name"] 
+                                                        + "<br>5.Item: " + "<img src=" + data["item"][build[4]]["image"] +" width=\"20\" height=\"20\">" + data["item"][build[4]]["name"]
+                                                        + "<br>6.Item: " + "<img src=" + data["item"][build[5]]["image"] +" width=\"20\" height=\"20\">" + data["item"][build[5]]["name"];
 }
 
 function rerollChampion() {
@@ -36,10 +49,45 @@ function rerollChampion() {
     }
 }
 
+function rerollRandomChampion() {
+    index = Math.floor(Math.random() * data["champion"].length);
+    if(Math.floor(Math.random()) == 0) {
+        scaling = data["champion"][index]["scaling"];
+    }
+    else {
+        scaling = data["champion"][index]["sub scaling"];
+    }
+    itemsOfScaling = [];
+    for(i in data["item"])
+    {
+        if(i["scaling"] == scaling || i["sub scaling"] == scaling) {
+            itemsOfScaling.push(i);
+        }
+        if(i["scaling"] == "*") {
+            itemsOfScaling.push(i);
+        }
+    }
+    itemBuild = [];
+    for (let n = 0; n < 6; n++) {
+        itemIndex = Math.floor(Math.random() * itemsOfScaling.length);
+        itemBuild.push(itemsOfScaling.splice(itemIndex, 1));
+    }
+    index = Math.floor(Math.random() * data["rune"].length - 1);
+    keyArray = Object.keys(data["rune"]);
+    randomKey = keyArray[Math.floor(Math.random() * keyArray.length)];
+    itemBuild.push(data["rune"][randomKey]);
+    loadRandomChampion(index, itemBuild);
+}
+
 function back() {
     if(backSaves.length > 0) {
         champ = backSaves.shift();
-        loadChampion(champ.index, champ.isMeta);
+        if(champ.isMeta == false) {
+            loadChampion(champ.index);
+        }
+        else {
+            loadRandomChampion(champ.index, champ.build)
+        }
     }
 }
 
@@ -48,5 +96,10 @@ function save() {
 }
 
 function load() {
-    loadChampion(oneTimeSave.index, oneTimeSave.isMeta)
+    if(champ.isMeta == false) {
+        loadChampion(oneTimeSave.index);
+    }
+    else {
+        loadRandomChampion(oneTimeSave.index, oneTimeSave.build)
+    }
 }
