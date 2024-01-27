@@ -58,13 +58,15 @@ function rerollRandomChampion() {
         scaling = data["champion"][index]["sub scaling"];
     }
     itemsOfScaling = [];
-    for(i in data["item"])
+    itemKeys = Object.keys(data["item"]);
+    
+    for(let i = 0; i < itemKeys.length; i++)
     {
-        if(i["scaling"] == scaling || i["sub scaling"] == scaling) {
-            itemsOfScaling.push(i);
+        if(data["item"][itemKeys[i]]["scaling"] == scaling || data["item"][itemKeys[i]]["sub scaling"] == scaling) {
+            itemsOfScaling.push(itemKeys[i]);
         }
-        if(i["scaling"] == "*") {
-            itemsOfScaling.push(i);
+        if(data["item"][itemKeys[i]]["scaling"] == "*") {
+            itemsOfScaling.push(itemKeys[i]);
         }
     }
     itemBuild = [];
@@ -72,17 +74,22 @@ function rerollRandomChampion() {
         itemIndex = Math.floor(Math.random() * itemsOfScaling.length);
         itemBuild.push(itemsOfScaling.splice(itemIndex, 1));
     }
-    index = Math.floor(Math.random() * data["rune"].length - 1);
     keyArray = Object.keys(data["rune"]);
     randomKey = keyArray[Math.floor(Math.random() * keyArray.length)];
-    itemBuild.push(data["rune"][randomKey]);
+    itemBuild.push(randomKey);
     loadRandomChampion(index, itemBuild);
+    champion = new champion_save(index, false);
+    champion.set_build(itemBuild)
+    backSaves.push(champion);
+    if (backSaves.length >= 10) {
+        backSaves.pop();
+    }
 }
 
 function back() {
     if(backSaves.length > 0) {
         champ = backSaves.shift();
-        if(champ.isMeta == false) {
+        if(champ.isMeta == true) {
             loadChampion(champ.index);
         }
         else {
@@ -96,7 +103,7 @@ function save() {
 }
 
 function load() {
-    if(champ.isMeta == false) {
+    if(champ.isMeta == true) {
         loadChampion(oneTimeSave.index);
     }
     else {
