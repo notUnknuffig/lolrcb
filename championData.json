@@ -13,7 +13,7 @@ data = {
                 "Conquerer"
             ],
             "scaling": "AD",
-            "sub scaling": "AD"
+            "sub scaling": "LETH"
         },
         {
             "name": "Ahri",
@@ -43,7 +43,7 @@ data = {
                 "Electrocute"
             ],
             "scaling": "AP",
-            "sub scaling": "AD"
+            "sub scaling": "AP"
         },
         {
             "name": "Akshan",
@@ -57,8 +57,8 @@ data = {
                 "Guardian Angel",
                 "Fleet Footwork"
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Alistar",
@@ -73,7 +73,7 @@ data = {
                 "Phase Rush"
             ],
             "scaling": "RES",
-            "sub scaling": "AP"
+            "sub scaling": "RES"
         },
         {
             "name": "Amumu",
@@ -103,7 +103,7 @@ data = {
                 "Electrocute"
             ],
             "scaling": "AP",
-            "sub scaling": "HP"
+            "sub scaling": "AP"
         },
         {
             "name": "Annie",
@@ -132,8 +132,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Ashe",
@@ -147,8 +147,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Aurelion Sol",
@@ -178,7 +178,7 @@ data = {
                 ""
             ],
             "scaling": "AP",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Bard",
@@ -193,7 +193,7 @@ data = {
                 ""
             ],
             "scaling": "SUP",
-            "sub scaling": "AP"
+            "sub scaling": "AS"
         },
         {
             "name": "Bel'Veth",
@@ -207,7 +207,7 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
+            "scaling": "AS",
             "sub scaling": "AP"
         },
         {
@@ -253,7 +253,7 @@ data = {
                 ""
             ],
             "scaling": "RES",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Briar",
@@ -268,7 +268,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AP"
+            "sub scaling": "LETH"
         },
         {
             "name": "Caitlyn",
@@ -282,8 +282,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "LETH"
         },
         {
             "name": "Camille",
@@ -387,8 +387,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Dr. Mundo",
@@ -462,7 +462,7 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
+            "scaling": "AS",
             "sub scaling": "AD"
         },
         {
@@ -523,7 +523,7 @@ data = {
                 ""
             ],
             "scaling": "AP",
-            "sub scaling": "RES"
+            "sub scaling": "AP"
         },
         {
             "name": "Gangplank",
@@ -537,8 +537,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         {
             "name": "Garen",
@@ -568,7 +568,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Gragas",
@@ -583,7 +583,7 @@ data = {
                 ""
             ],
             "scaling": "AP",
-            "sub scaling": "HP"
+            "sub scaling": "AP"
         },
         {
             "name": "Graves",
@@ -597,8 +597,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "AS"
         },
         {
             "name": "Gwen",
@@ -688,7 +688,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "RES"
+            "sub scaling": "AD"
         },
         {
             "name": "Ivern",
@@ -733,7 +733,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "RES"
+            "sub scaling": "AD"
         },
         {
             "name": "Jax",
@@ -748,7 +748,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AP"
+            "sub scaling": "AS"
         },
         {
             "name": "Jayce",
@@ -777,8 +777,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "LETH"
         },
         {
             "name": "Jinx",
@@ -792,8 +792,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "LETH"
         },
         {
             "name": "Kaisa",
@@ -807,7 +807,7 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
+            "scaling": "AS",
             "sub scaling": "AP"
         },
         {
@@ -822,8 +822,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Karma",
@@ -883,7 +883,7 @@ data = {
                 ""
             ],
             "scaling": "AP",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Kayle",
@@ -897,8 +897,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AP",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Kayn",
@@ -942,8 +942,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         {
             "name": "Kindred",
@@ -957,8 +957,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Kled",
@@ -987,7 +987,7 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
+            "scaling": "AS",
             "sub scaling": "AP"
         },
         {
@@ -1018,7 +1018,7 @@ data = {
                 ""
             ],
             "scaling": "AP",
-            "sub scaling": "AD"
+            "sub scaling": "AP"
         },
         {
             "name": "Lee Sin",
@@ -1033,7 +1033,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AD"
+            "sub scaling": "LETH"
         },
         {
             "name": "Leona",
@@ -1092,8 +1092,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Lulu",
@@ -1182,8 +1182,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Milio",
@@ -1212,8 +1212,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AP"
+            "scaling": "AS",
+            "sub scaling": "LETH"
         },
         {
             "name": "Wukong",
@@ -1228,7 +1228,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AD"
+            "sub scaling": "LETH"
         },
         {
             "name": "Mordekaiser",
@@ -1243,7 +1243,7 @@ data = {
                 ""
             ],
             "scaling": "AP",
-            "sub scaling": "HP"
+            "sub scaling": "AP"
         },
         {
             "name": "Morgana",
@@ -1272,7 +1272,7 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
+            "scaling": "LETH",
             "sub scaling": "AD"
         },
         {
@@ -1303,7 +1303,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "RES"
+            "sub scaling": "AP"
         },
         {
             "name": "Nautilus",
@@ -1318,7 +1318,7 @@ data = {
                 ""
             ],
             "scaling": "RES",
-            "sub scaling": "AP"
+            "sub scaling": "RES"
         },
         {
             "name": "Neeko",
@@ -1333,7 +1333,7 @@ data = {
                 ""
             ],
             "scaling": "AP",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Nidalee",
@@ -1362,8 +1362,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Nocturne",
@@ -1378,7 +1378,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Nunu",
@@ -1407,7 +1407,7 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
+            "scaling": "AS",
             "sub scaling": "AD"
         },
         {
@@ -1453,7 +1453,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AD"
+            "sub scaling": "LETH"
         },
         {
             "name": "Poppy",
@@ -1482,8 +1482,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "HP"
         },
         {
             "name": "Qiyana",
@@ -1497,8 +1497,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         {
             "name": "Quinn",
@@ -1512,8 +1512,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Rakan",
@@ -1573,7 +1573,7 @@ data = {
                 ""
             ],
             "scaling": "RES",
-            "sub scaling": "AP"
+            "sub scaling": "RES"
         },
         {
             "name": "Renata Glasc",
@@ -1588,7 +1588,7 @@ data = {
                 ""
             ],
             "scaling": "SUP",
-            "sub scaling": "AP"
+            "sub scaling": "SUP"
         },
         {
             "name": "Renekton",
@@ -1617,8 +1617,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         {
             "name": "Riven",
@@ -1677,8 +1677,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "LETH"
         },
         {
             "name": "Sejuani",
@@ -1707,8 +1707,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "AS"
         },
         {
             "name": "Seraphine",
@@ -1752,7 +1752,7 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
+            "scaling": "LETH",
             "sub scaling": "AP"
         },
         {
@@ -1783,7 +1783,7 @@ data = {
                 ""
             ],
             "scaling": "AP",
-            "sub scaling": "AD"
+            "sub scaling": "RES"
         },
         {
             "name": "Singed",
@@ -1798,7 +1798,7 @@ data = {
                 ""
             ],
             "scaling": "AP",
-            "sub scaling": "AP"
+            "sub scaling": "RES"
         },
         {
             "name": "Sion",
@@ -1827,8 +1827,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Skarner",
@@ -1857,8 +1857,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AP"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Sona",
@@ -1873,7 +1873,7 @@ data = {
                 ""
             ],
             "scaling": "SUP",
-            "sub scaling": "AP"
+            "sub scaling": "SUP"
         },
         {
             "name": "Soraka",
@@ -1903,7 +1903,7 @@ data = {
                 ""
             ],
             "scaling": "AP",
-            "sub scaling": "HP"
+            "sub scaling": "AP"
         },
         {
             "name": "Sylas",
@@ -1977,8 +1977,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         {
             "name": "Taric",
@@ -1993,7 +1993,7 @@ data = {
                 ""
             ],
             "scaling": "RES",
-            "sub scaling": "RES"
+            "sub scaling": "SUP"
         },
         {
             "name": "Teemo",
@@ -2008,7 +2008,7 @@ data = {
                 ""
             ],
             "scaling": "AP",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Thresh",
@@ -2023,7 +2023,7 @@ data = {
                 ""
             ],
             "scaling": "RES",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Tristana",
@@ -2037,8 +2037,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Trundle",
@@ -2053,7 +2053,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Tryndamere",
@@ -2067,7 +2067,7 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
+            "scaling": "AS",
             "sub scaling": "AD"
         },
         {
@@ -2083,7 +2083,7 @@ data = {
                 ""
             ],
             "scaling": "AP",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Twitch",
@@ -2097,7 +2097,7 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
+            "scaling": "AS",
             "sub scaling": "AP"
         },
         {
@@ -2112,7 +2112,7 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
+            "scaling": "RES",
             "sub scaling": "AP"
         },
         {
@@ -2128,7 +2128,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Varus",
@@ -2142,7 +2142,7 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AP",
+            "scaling": "AS",
             "sub scaling": "AP"
         },
         {
@@ -2157,8 +2157,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Veigar",
@@ -2218,7 +2218,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AD"
+            "sub scaling": "RES"
         },
         {
             "name": "Viego",
@@ -2233,7 +2233,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Viktor",
@@ -2307,8 +2307,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "LETH"
         },
         {
             "name": "Xerath",
@@ -2338,7 +2338,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         {
             "name": "Yasuo",
@@ -2352,8 +2352,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "LETH"
         },
         {
             "name": "Yone",
@@ -2367,8 +2367,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "LETH"
         },
         {
             "name": "Yorick",
@@ -2383,7 +2383,7 @@ data = {
                 ""
             ],
             "scaling": "AD",
-            "sub scaling": "AD"
+            "sub scaling": "LETH"
         },
         {
             "name": "Yuumi",
@@ -2427,8 +2427,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         {
             "name": "Zeri",
@@ -2442,8 +2442,8 @@ data = {
                 "",
                 ""
             ],
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         {
             "name": "Ziggs",
@@ -2534,8 +2534,8 @@ data = {
         "Axiom Arc": {
             "name": "Axiom Arc",
             "image": "itemImages/AxiomArc.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         "Banshees Veil": {
             "name": "Banshee's Veil",
@@ -2546,8 +2546,8 @@ data = {
         "Berserkers Greaves": {
             "name": "Berserker's Greaves",
             "image": "itemImages/BerserkersGreaves.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "*",
+            "sub scaling": "AS"
         },
         "Black Cleaver": {
             "name": "Black Cleaver",
@@ -2558,8 +2558,8 @@ data = {
         "Blade of The Ruined King": {
             "name": "Blade of The Ruined King",
             "image": "itemImages/BladeofTheRuinedKing.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         "Bloodthirster": {
             "name": "Bloodthirster",
@@ -2618,25 +2618,25 @@ data = {
         "Eclipse": {
             "name": "Eclipse",
             "image": "itemImages/Eclipse.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         "Edge of Night": {
             "name": "Edge of Night",
             "image": "itemImages/EdgeofNight.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         "Essence Reaver": {
             "name": "Essence Reaver",
             "image": "itemImages/EssenceReaver.png",
-            "scaling": "AD",
+            "scaling": "AS",
             "sub scaling": "AD"
         },
         "Experimental Hexplate": {
             "name": "Experimental Hexplate",
             "image": "itemImages/ExperimentalHexplate.png",
-            "scaling": "AD",
+            "scaling": "AS",
             "sub scaling": "AD"
         },
         "Force of Nature": {
@@ -2654,14 +2654,14 @@ data = {
         "Guardian Angel": {
             "name": "Guardian Angel",
             "image": "itemImages/GuardianAngel.png",
-            "scaling": "AD",
+            "scaling": "AS",
             "sub scaling": "AD"
         },
         "Guinsoo's Rageblade": {
             "name": "Guinsoos Rageblade",
             "image": "itemImages/GuinsoosRageblade.png",
-            "scaling": "AD",
-            "sub scaling": "AP"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         "Heartsteel": {
             "name": "Heartsteel",
@@ -2690,8 +2690,8 @@ data = {
         "Hubris": {
             "name": "Hubris",
             "image": "itemImages/Hubris.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         "Hullbreaker": {
             "name": "Hullbreaker",
@@ -2708,8 +2708,8 @@ data = {
         "Immortal Shieldbow": {
             "name": "Immortal Shieldbow",
             "image": "itemImages/ImmortalShieldbow.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         "Imperial Mandate": {
             "name": "Imperial Mandate",
@@ -2720,8 +2720,8 @@ data = {
         "Infinity Edge": {
             "name": "Infinity Edge",
             "image": "itemImages/InfinityEdge.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         "Ionian Boots of Lucidity": {
             "name": "Ionian Boots of Lucidity",
@@ -2750,8 +2750,8 @@ data = {
         "Kraken Slayer": {
             "name": "Kraken Slayer",
             "image": "itemImages/KrakenSlayer.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         "Liandrys Torment": {
             "name": "Liandry's Torment",
@@ -2774,8 +2774,8 @@ data = {
         "Lord Dominiks Regards": {
             "name": "Lord Dominiks Regards",
             "image": "itemImages/LordDominiksRegards.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "AS"
         },
         "Ludens Companion": {
             "name": "Luden's Companion",
@@ -2792,7 +2792,7 @@ data = {
         "Manamune": {
             "name": "Manamune",
             "image": "itemImages/Manamune.png",
-            "scaling": "AD",
+            "scaling": "LETH",
             "sub scaling": "AD"
         },
         "Maw of Malmortius": {
@@ -2817,7 +2817,7 @@ data = {
             "name": "Mercury's Treads",
             "image": "itemImages/MercurysTreads.png",
             "scaling": "*",
-            "sub scaling": "*"
+            "sub scaling": "RES"
         },
         "Mikaels Blessing": {
             "name": "Mikael's Blessing",
@@ -2828,7 +2828,7 @@ data = {
         "Mobility Boots": {
             "name": "Mobility Boots",
             "image": "itemImages/MobilityBoots.png",
-            "scaling": "SUP",
+            "scaling": "*",
             "sub scaling": "SUP"
         },
         "Moonstone Renewer": {
@@ -2846,13 +2846,13 @@ data = {
         "Mortal Reminder": {
             "name": "Mortal Reminder",
             "image": "itemImages/MortalReminder.png",
-            "scaling": "AD",
+            "scaling": "AS",
             "sub scaling": "AD"
         },
         "Nashors Tooth": {
             "name": "Nashor's Tooth",
             "image": "itemImages/NashorsTooth.png",
-            "scaling": "AP",
+            "scaling": "AS",
             "sub scaling": "AP"
         },
         "Navori Quickblades": {
@@ -2870,25 +2870,25 @@ data = {
         "Opportunity": {
             "name": "Opportunity",
             "image": "itemImages/Opportunity.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         "Phantom Dancer": {
             "name": "Phantom Dancer",
             "image": "itemImages/PhantomDancer.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         "Plated Steelcaps": {
             "name": "Plated Steelcaps",
             "image": "itemImages/PlatedSteelcaps.png",
             "scaling": "*",
-            "sub scaling": "*"
+            "sub scaling": "RES"
         },
         "Profane Hydra": {
             "name": "Profane Hydra",
             "image": "itemImages/ProfaneHydra.png",
-            "scaling": "AD",
+            "scaling": "LETH",
             "sub scaling": "AD"
         },
         "Rabadons Deathcap": {
@@ -2912,8 +2912,8 @@ data = {
         "Rapid Firecannon": {
             "name": "Rapid Firecannon",
             "image": "itemImages/RapidFirecannon.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         "Ravenous Hydra": {
             "name": "Ravenous Hydra",
@@ -2942,8 +2942,8 @@ data = {
         "Runaans Hurricane": {
             "name": "Runaan's Hurricane",
             "image": "itemImages/RunaansHurricane.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         "Rylais Crystal Scepter": {
             "name": "Rylai's Crystal Scepter",
@@ -2954,14 +2954,14 @@ data = {
         "Serpent's Fang": {
             "name": "Serpents Fang",
             "image": "itemImages/SerpentsFang.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         "Seryldas Grudge": {
             "name": "Serylda's Grudge",
             "image": "itemImages/SeryldasGrudge.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         "Shadowflame": {
             "name": "Shadowflame",
@@ -2978,7 +2978,7 @@ data = {
         "Sorcerers Shoes": {
             "name": "Sorcerer's Shoes",
             "image": "itemImages/SorcerersShoes.png",
-            "scaling": "AP",
+            "scaling": "*",
             "sub scaling": "AP"
         },
         "Spear of Shojin": {
@@ -3002,8 +3002,8 @@ data = {
         "Statikk Shiv": {
             "name": "Statikk Shiv",
             "image": "itemImages/StatikkShiv.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         "Steraks Gage": {
             "name": "Sterak's Gage",
@@ -3014,8 +3014,8 @@ data = {
         "Stormrazor": {
             "name": "Stormrazor",
             "image": "itemImages/Stormrazor.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         "Stormsurge": {
             "name": "Stormsurge",
@@ -3044,14 +3044,14 @@ data = {
         "Terminus": {
             "name": "Terminus",
             "image": "itemImages/Terminus.png",
-            "scaling": "AD",
+            "scaling": "AS",
             "sub scaling": "AD"
         },
         "The Collector": {
             "name": "The Collector",
             "image": "itemImages/TheCollector.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "AS"
         },
         "Thornmail": {
             "name": "Thornmail",
@@ -3080,8 +3080,8 @@ data = {
         "Umbral Glaive": {
             "name": "Umbral Glaive",
             "image": "itemImages/UmbralGlaive.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         "Unending Despair": {
             "name": "Unending Despair",
@@ -3092,8 +3092,8 @@ data = {
         "Voltaic Cyclosword": {
             "name": "Voltaic Cyclosword",
             "image": "itemImages/VoltaicCyclosword.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         "Warmogs Armor": {
             "name": "Warmog's Armor",
@@ -3111,13 +3111,13 @@ data = {
             "name": "Wit's End",
             "image": "itemImages/WitsEnd.png",
             "scaling": "RES",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         "Youmuus Ghostblade": {
             "name": "Youmuu's Ghostblade",
             "image": "itemImages/YoumuusGhostblade.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "LETH",
+            "sub scaling": "LETH"
         },
         "Zekes Convergence": {
             "name": "Zeke's Convergence",

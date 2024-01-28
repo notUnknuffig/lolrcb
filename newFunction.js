@@ -60,19 +60,37 @@ function rerollRandomChampion() {
     itemsOfScaling = [];
     itemKeys = Object.keys(data["item"]);
     
+    itemBuild = [];
+    allBoots = [];
+    bootItem = "";
+
     for(let i = 0; i < itemKeys.length; i++)
     {
-        if(data["item"][itemKeys[i]]["scaling"] == scaling || data["item"][itemKeys[i]]["sub scaling"] == scaling) {
-            itemsOfScaling.push(itemKeys[i]);
-        }
         if(data["item"][itemKeys[i]]["scaling"] == "*") {
+            if(data["item"][itemKeys[i]]["sub scaling"] == scaling)
+            {
+                bootItem = itemKeys[i];
+            }
+            else if(data["item"][itemKeys[i]]["sub scaling"] == "*")
+            {
+                bootItem = itemKeys[i];
+            }
+        }
+        else if(data["item"][itemKeys[i]]["scaling"] == scaling || data["item"][itemKeys[i]]["sub scaling"] == scaling) {
             itemsOfScaling.push(itemKeys[i]);
         }
     }
-    itemBuild = [];
     for (let n = 0; n < 6; n++) {
         itemIndex = Math.floor(Math.random() * itemsOfScaling.length);
         itemBuild.push(itemsOfScaling.splice(itemIndex, 1));
+    }
+    if(bootItem != "")
+    {
+        itemBuild[Math.floor(Math.random() * 3)] = bootItem;
+    }
+    else
+    {
+        itemBuild[Math.floor(Math.random() * 3)] = allBoots[Math.floor(Math.random() * allBoots.length)];
     }
     keyArray = Object.keys(data["rune"]);
     randomKey = keyArray[Math.floor(Math.random() * keyArray.length)];
