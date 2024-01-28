@@ -17,7 +17,7 @@ data = JSON.parse(championData);
 
 function loadChampion(index) {
     document.getElementById("erandomChampion").innerHTML = "Champion: " + data["champion"][index]["name"];
-    document.getElementById("image").src = data["champion"][index]["image"];
+    document.getElementById("championImage").src = data["champion"][index]["image"];
     document.getElementById("buildLine_0").innerHTML = "Runes: " + "<img src=" + data["rune"][data["champion"][index]["build"][6]]["image"] + ">" + data["rune"][data["champion"][index]["build"][6]]["name"];
     document.getElementById("buildLine_1").innerHTML = "1.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][0]]["image"] + ">" + data["item"][data["champion"][index]["build"][0]]["name"];
     document.getElementById("buildLine_2").innerHTML = "2.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][1]]["image"] + ">" + data["item"][data["champion"][index]["build"][1]]["name"];
@@ -29,7 +29,7 @@ function loadChampion(index) {
 
 function loadRandomChampion(index, build) {
     document.getElementById("erandomChampion").innerHTML = "Champion: " + data["champion"][index]["name"];
-    document.getElementById("image").src = data["champion"][index]["image"];
+    document.getElementById("championImage").src = data["champion"][index]["image"];
     document.getElementById("buildLine_0").innerHTML = "Runes: " + "<img src=" + data["rune"][build[6]]["image"] + ">" + data["rune"][build[6]]["name"];
     document.getElementById("buildLine_1").innerHTML = "1.Item: " + "<img src=" + data["item"][build[0]]["image"] + ">" + data["item"][build[0]]["name"];
     document.getElementById("buildLine_2").innerHTML = "2.Item: " + "<img src=" + data["item"][build[1]]["image"] + ">" + data["item"][build[1]]["name"];
