@@ -2564,8 +2564,8 @@ data = {
         "Bloodthirster": {
             "name": "Bloodthirster",
             "image": "itemImages/Bloodthirster.png",
-            "scaling": "AD",
-            "sub scaling": "AD"
+            "scaling": "AS",
+            "sub scaling": "AS"
         },
         "Boots of Swiftness": {
             "name": "Boots of Swiftness",
@@ -2847,7 +2847,7 @@ data = {
             "name": "Mortal Reminder",
             "image": "itemImages/MortalReminder.png",
             "scaling": "AS",
-            "sub scaling": "AD"
+            "sub scaling": "AS"
         },
         "Nashors Tooth": {
             "name": "Nashor's Tooth",
@@ -3133,21 +3133,85 @@ data = {
         }
     },
     "rune":{
-        "Conquerer": {"name":"Conquerer", "image":"runeImages/Conqueror.png"},
-        "Press The Attack": {"name":"Press the Attack", "image":"runeImages/PressTheAttack.png"},
-        "Lethal Tempo": {"name":"Lethal Tempo", "image":"runeImages/LethalTempoTemp.png"},
-        "First Strike": {"name":"First Strike", "image":"runeImages/FirstStrike.png"},
-        "Electrocute": {"name":"Electrocute", "image":"runeImages/Electrocute.png"},
-        "Hail Of Blades": {"name":"Hail of Blades", "image":"runeImages/HailOfBlades.png"},
-        "Dark Harvest": {"name":"Dark Harvest", "image":"runeImages/DarkHarvest.png"},
-        "Glacial Augment": {"name":"Glacial Augment", "image":"runeImages/GlacialAugment.png"},
-        "Unsealed Spellbook": {"name":"Unsealed Spellbook", "image":"runeImages/UnsealedSpellbook.png"},
-        "Aftershock": {"name":"Aftershock", "image":"runeImages/VeteranAftershock.png"},
-        "Phase Rush": {"name":"Phase Rush", "image":"runeImages/PhaseRush.png"},
-        "Arcane Comet": {"name":"Arcane Comet", "image":"runeImages/ArcaneComet.png"},
-        "Summon Aery": {"name":"Summon Aery", "image":"runeImages/SummonAery.png"},
-        "Grasp Of The Undying": {"name":"Grasp of the Undying", "image":"runeImages/GraspOfTheUndying.png"},
-        "Guardian": {"name":"Guardian", "image":"runeImages/Guardian.png"},
-        "Fleet Footwork": {"name":"Fleet Footwork", "image":"runeImages/FleetFootwork.png"}
+        "Conquerer": {
+            "name":"Conquerer",
+            "image":"runeImages/Conqueror.png",
+            "scaling":["AD","AS"]
+        },
+        "Press The Attack": {
+            "name":"Press the Attack", 
+            "image":"runeImages/PressTheAttack.png",
+            "scaling":["AS","AD","LETH"]
+        },
+        "Lethal Tempo": {
+            "name":"Lethal Tempo", 
+            "image":"runeImages/LethalTempoTemp.png",
+            "scaling":["AS"]
+        },
+        "First Strike": {
+            "name":"First Strike", 
+            "image":"runeImages/FirstStrike.png",
+            "scaling":["AP","LETH"]
+        },
+        "Electrocute": {
+            "name":"Electrocute", 
+            "image":"runeImages/Electrocute.png",
+            "scaling":["AP","LETH"]
+        },
+        "Hail Of Blades": {
+            "name":"Hail of Blades", 
+            "image":"runeImages/HailOfBlades.png",
+            "scaling":["AS"]
+        },
+        "Dark Harvest": {
+            "name":"Dark Harvest", 
+            "image":"runeImages/DarkHarvest.png",
+            "scaling":["AP","LETH"]
+        },
+        "Glacial Augment": {
+            "name":"Glacial Augment", 
+            "image":"runeImages/GlacialAugment.png",
+            "scaling":["SUP","RES","HP"]
+        },
+        "Unsealed Spellbook": {
+            "name":"Unsealed Spellbook", 
+            "image":"runeImages/UnsealedSpellbook.png",
+            "scaling":["SUP"]
+        },
+        "Aftershock": {
+            "name":"Aftershock", 
+            "image":"runeImages/VeteranAftershock.png",
+            "scaling":["RES","HP"]
+        },
+        "Phase Rush": {
+            "name":"Phase Rush",
+            "image":"runeImages/PhaseRush.png",
+            "scaling":["AD","AP"]
+        },
+        "Arcane Comet": {
+            "name":"Arcane Comet", 
+            "image":"runeImages/ArcaneComet.png",
+            "scaling":["AP","SUP"]
+        },
+        "Summon Aery": {
+            "name":"Summon Aery", 
+            "image":"runeImages/SummonAery.png",
+            "scaling":["SUP","AP"]
+        },
+        "Grasp Of The Undying": {
+            "name":"Grasp of the Undying", 
+            "image":"runeImages/GraspOfTheUndying.png",
+            "scaling":["HP","RES"]
+        },
+        "Guardian": {
+            "name":"Guardian", 
+            "image":"runeImages/Guardian.png",
+            "scaling":["SUP","RES","HP"]
+        },
+        "Fleet Footwork": {
+            "name":"Fleet Footwork", 
+            "image":"runeImages/FleetFootwork.png",
+            "scaling":["AS"]
+        }
     }
 }

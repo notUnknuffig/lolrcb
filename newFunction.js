@@ -73,7 +73,7 @@ function rerollRandomChampion() {
             }
             else if(data["item"][itemKeys[i]]["sub scaling"] == "*")
             {
-                bootItem = itemKeys[i];
+                allBoots.push(itemKeys[i]);
             }
         }
         else if(data["item"][itemKeys[i]]["scaling"] == scaling || data["item"][itemKeys[i]]["sub scaling"] == scaling) {
@@ -92,7 +92,15 @@ function rerollRandomChampion() {
     {
         itemBuild[Math.floor(Math.random() * 3)] = allBoots[Math.floor(Math.random() * allBoots.length)];
     }
-    keyArray = Object.keys(data["rune"]);
+    allKeyArray = Object.keys(data["rune"]);
+    keyArray = [];
+    for(let k = 0; k < allKeyArray.length; k++)
+    {
+        if(data["rune"][allKeyArray[k]]["scaling"].includes(scaling))
+        {
+            keyArray.push(allKeyArray[k]);
+        }
+    }
     randomKey = keyArray[Math.floor(Math.random() * keyArray.length)];
     itemBuild.push(randomKey);
     loadRandomChampion(index, itemBuild);
@@ -100,28 +108,30 @@ function rerollRandomChampion() {
     champion.set_build(itemBuild)
     backSaves.push(champion);
     if (backSaves.length >= 10) {
-        backSaves.pop();
+        backSaves.splice(0,1);
     }
 }
 
 function back() {
-    if(backSaves.length > 0) {
-        champ = backSaves.shift();
+    if(backSaves.length > 1) {
+        champ = backSaves[backSaves.length - 2];
+        backSaves.splice(backSaves.length - 1,1);
         if(champ.isMeta == true) {
             loadChampion(champ.index);
         }
         else {
-            loadRandomChampion(champ.index, champ.build)
+            loadRandomChampion(champ.index, champ.build);
         }
     }
 }
 
 function save() {
-    oneTimeSave = backSaves[0];
+    oneTimeSave = backSaves[backSaves.length - 1];
+    console.log(backSaves[backSaves.length - 1])
 }
 
 function load() {
-    if(champ.isMeta == true) {
+    if(oneTimeSave.isMeta == true) {
         loadChampion(oneTimeSave.index);
     }
     else {
