@@ -6,11 +6,19 @@
     <script src="championData.json"></script>
     <script type="text/javascript" src="newFunction.js"></script>
 </head>
-<body onload="rerollChampion()">
+<body onload="rerollRandomChampion()">
     <h2>Random Champion Build</h2>
-    <img id="image" src="championImages/Aatrox.jpg" alt="Image" width="100" height="100">
+    <img id="image" src="championImages/Aatrox.jpg" alt="Image" width="150em" height="150em">
     <div id="erandomChampion"></div>
-    <div id="erandomLane"></div>
+    <div class="erandomBuild">
+        <p id="buildLine_0"></p>
+        <p id="buildLine_1"></p>
+        <p id="buildLine_2"></p>
+        <p id="buildLine_3"></p>
+        <p id="buildLine_4"></p>
+        <p id="buildLine_5"></p>
+        <p id="buildLine_6"></p>
+    </div>
     <div id="erandomBuild"></div>
     <div class="grid-container">
         <button class="grid-item" id="_button" onclick="rerollChampion()">Offmeta Random</button>

@@ -18,25 +18,25 @@ data = JSON.parse(championData);
 function loadChampion(index) {
     document.getElementById("erandomChampion").innerHTML = "Champion: " + data["champion"][index]["name"];
     document.getElementById("image").src = data["champion"][index]["image"];
-    document.getElementById("erandomBuild").innerHTML = "Runes: " + "<img src=" + data["rune"][data["champion"][index]["build"][6]]["image"] +" width=\"30\" height=\"30\">" + data["rune"][data["champion"][index]["build"][6]]["name"]
-                                                        + "<br>1.Item: "+ "<img src=" + data["item"][data["champion"][index]["build"][0]]["image"] +" width=\"20\" height=\"20\">" + data["item"][data["champion"][index]["build"][0]]["name"]
-                                                        +"<br>2.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][1]]["image"] +" width=\"20\" height=\"20\">" + data["item"][data["champion"][index]["build"][1]]["name"]
-                                                        +"<br>3.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][2]]["image"] +" width=\"20\" height=\"20\">" + data["item"][data["champion"][index]["build"][2]]["name"]
-                                                        + "<br>4.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][3]]["image"] +" width=\"20\" height=\"20\">" + data["item"][data["champion"][index]["build"][3]]["name"] 
-                                                        + "<br>5.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][4]]["image"] +" width=\"20\" height=\"20\">" + data["item"][data["champion"][index]["build"][4]]["name"]
-                                                        + "<br>6.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][5]]["image"] +" width=\"20\" height=\"20\">" + data["item"][data["champion"][index]["build"][5]]["name"];
+    document.getElementById("buildLine_0").innerHTML = "Runes: " + "<img src=" + data["rune"][data["champion"][index]["build"][6]]["image"] + ">" + data["rune"][data["champion"][index]["build"][6]]["name"];
+    document.getElementById("buildLine_1").innerHTML = "1.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][0]]["image"] + ">" + data["item"][data["champion"][index]["build"][0]]["name"];
+    document.getElementById("buildLine_2").innerHTML = "2.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][1]]["image"] + ">" + data["item"][data["champion"][index]["build"][1]]["name"];
+    document.getElementById("buildLine_3").innerHTML = "3.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][2]]["image"] + ">" + data["item"][data["champion"][index]["build"][2]]["name"];
+    document.getElementById("buildLine_4").innerHTML = "4.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][3]]["image"] + ">" + data["item"][data["champion"][index]["build"][3]]["name"]; 
+    document.getElementById("buildLine_5").innerHTML = "5.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][4]]["image"] + ">" + data["item"][data["champion"][index]["build"][4]]["name"];
+    document.getElementById("buildLine_6").innerHTML = "6.Item: " + "<img src=" + data["item"][data["champion"][index]["build"][5]]["image"] + ">" + data["item"][data["champion"][index]["build"][5]]["name"];
 }
 
 function loadRandomChampion(index, build) {
     document.getElementById("erandomChampion").innerHTML = "Champion: " + data["champion"][index]["name"];
     document.getElementById("image").src = data["champion"][index]["image"];
-    document.getElementById("erandomBuild").innerHTML = "Runes: " + "<img src=" + data["rune"][build[6]]["image"] +" width=\"30\" height=\"30\">" + data["rune"][build[6]]["name"]
-                                                        + "<br>1.Item: "+ "<img src=" + data["item"][build[0]]["image"] +" width=\"20\" height=\"20\">" + data["item"][build[0]]["name"]
-                                                        +"<br>2.Item: " + "<img src=" + data["item"][build[1]]["image"] +" width=\"20\" height=\"20\">" + data["item"][build[1]]["name"]
-                                                        +"<br>3.Item: " + "<img src=" + data["item"][build[2]]["image"] +" width=\"20\" height=\"20\">" + data["item"][build[2]]["name"]
-                                                        + "<br>4.Item: " + "<img src=" + data["item"][build[3]]["image"] +" width=\"20\" height=\"20\">" + data["item"][build[3]]["name"] 
-                                                        + "<br>5.Item: " + "<img src=" + data["item"][build[4]]["image"] +" width=\"20\" height=\"20\">" + data["item"][build[4]]["name"]
-                                                        + "<br>6.Item: " + "<img src=" + data["item"][build[5]]["image"] +" width=\"20\" height=\"20\">" + data["item"][build[5]]["name"];
+    document.getElementById("buildLine_0").innerHTML = "Runes: " + "<img src=" + data["rune"][build[6]]["image"] + ">" + data["rune"][build[6]]["name"];
+    document.getElementById("buildLine_1").innerHTML = "1.Item: " + "<img src=" + data["item"][build[0]]["image"] + ">" + data["item"][build[0]]["name"];
+    document.getElementById("buildLine_2").innerHTML = "2.Item: " + "<img src=" + data["item"][build[1]]["image"] + ">" + data["item"][build[1]]["name"];
+    document.getElementById("buildLine_3").innerHTML = "3.Item: " + "<img src=" + data["item"][build[2]]["image"] + ">" + data["item"][build[2]]["name"];
+    document.getElementById("buildLine_4").innerHTML = "4.Item: " + "<img src=" + data["item"][build[3]]["image"] + ">" + data["item"][build[3]]["name"];
+    document.getElementById("buildLine_5").innerHTML = "5.Item: " + "<img src=" + data["item"][build[4]]["image"] + ">" + data["item"][build[4]]["name"];
+    document.getElementById("buildLine_6").innerHTML = "6.Item: " + "<img src=" + data["item"][build[5]]["image"] + ">" + data["item"][build[5]]["name"];
 }
 
 function rerollChampion() {
