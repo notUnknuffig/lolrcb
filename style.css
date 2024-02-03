@@ -70,6 +70,7 @@ h2 {
 #_button {
     font-size: max(1rem, 2vh);
     text-align: center;
+    margin: max(0.15rem, 0.3vh);
     padding: max(0.75rem, 1.5vh);
 }
 .grid-container {
