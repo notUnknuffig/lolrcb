@@ -28,43 +28,49 @@ body::before {
 }
 h2 {
     text-align: center;
-    font-size: 5vh;
+    font-size: max(2.5rem, 5vh);
 }
 #championImage {
-    width: 8vh;
-    height: 8vh;
+    width: 9vh;
+    height: 9vh;
+    min-height: 4rem;
+    min-width: 4rem;
 }
 #erandomChampion {
-    font-size: 2vh;
+    font-size: max(2rem, 4vh);
     text-align: center;
-    padding-top: 0.3vh;
+    padding-top: max(0.15rem, 0.3vh);;
 }
 #erandomLane {
     font-size: 25px;
     text-align: center;
 }
 #buildLine_0 img {
-    width: 5vh;
-    height: 5vh;
+    width: 5.5vh;
+    height: 5.5vh;
+    min-height: 3rem;
+    min-width: 3rem;
 }
 .erandomBuild img {
-    width: 3vh;
-    height: 3vh;
+    min-height: 2rem;
+    min-width: 2rem;
+    width: 3.5vh;
+    height: 3.5vh;
     vertical-align: middle;
     outline: 10px;
     outline-color: darkgoldenrod;
 }
 .erandomBuild p {
-    font-size: 2vh;
+    font-size: max(1.5rem, 3vh);
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 0.2vh;
-    padding-bottom: 0.2vh;
+    padding-top: max(0.1rem, 0.2vh);
+    padding-bottom: max(0.1rem, 0.2vh);
 }
 #_button {
-    font-size: 1.4vh;
+    font-size: max(1rem, 2vh);
     text-align: center;
-    padding: 1vh;
+    padding: max(0.75rem, 1.5vh);
 }
 .grid-container {
     display: grid;
